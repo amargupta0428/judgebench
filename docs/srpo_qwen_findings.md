@@ -19,7 +19,7 @@ opposite outcome. This is the cleanest single demonstration in the project that
 - **Eval:** 40 brand prompts x8 + 10 non-brand control prompts x4, tuned vs
   base FLUX, matched seeds (70000+c) and params (28 steps, guidance 3.5,
   1024px) — identical protocol to the SigLIP arm. Scored with the full panel.
-- **Model:** HF `Gupta28/judgebench-srpo-qwen-ckpt200` (private).
+- **Model:** HF `Gupta28/judgebench-srpo-qwen-ckpt200` (public).
 - **Cost:** ~$19.5 pod (1.63h @ $11.96/hr). Well under the $72 envelope.
 
 ## Headline result — the attack did not land
@@ -122,4 +122,4 @@ one with a single exploitable direction breaks, the one without holds.
   verified against the HF processor; logits_to_keep=1 for memory; merge_and_unload
   offline to dodge peft's TP loader under torchrun).
 - `testbed/srpo/{patch_srpo_qwen.py,launch_srpo_qwen.sh,smoke_qwen.py,qwen_score_eval.py}`.
-- HF: `Gupta28/judgebench-srpo-qwen-ckpt200` (private).
+- HF: `Gupta28/judgebench-srpo-qwen-ckpt200` (public).

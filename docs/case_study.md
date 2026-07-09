@@ -1,5 +1,32 @@
 # judgebench — case study log
 
+## Finding 14 (July 9): SRPO gradient attack on QwenVL — the clean null control
+- The identical attack that shattered SigLIP (Finding 10) — same 200 SRPO steps
+  on FLUX.1-dev, same brand prompts/seeds/params, same pressure budget — aimed at
+  the QwenVL-7B LoRA judge (J3b) as the differentiable reward. Full writeup:
+  docs/srpo_qwen_findings.md; numbers: eval/results/srpo_qwen.json.
+- **The attack did not land: attacked judge +0.012 vs SigLIP-tuned's +0.36 at
+  matched pressure — ~30x weaker.** Per-item deltas are noise (sd 0.269, 43% up /
+  57% down). And **zero control leakage** (-0.001) vs the SigLIP arm's +0.26 bleed
+  onto non-brand controls — no pink/wordmark injection anywhere.
+- Meanwhile the clean independent judges (SigLIP frozen + tuned-v1) saw brand
+  quality FALL ~-0.15: unable to hack Qwen, the optimizer just degraded the
+  images — and where it perturbed hardest (frozen delta ~ -0.7), Qwen correctly
+  scored the broken image ~0.00.
+- Mechanism: SigLIP is cosine-to-a-centroid, and Finding 12 showed its exploit is
+  a single embedding direction — a smooth, low-dimensional gradient target. Qwen
+  routes P("yes") through a 7B autoregressive stack over vision tokens; there is
+  no cheap global pixel direction, so gradient pressure finds only tiny
+  per-batch perturbations that don't transfer to held-out seeds/prompts.
+- Caveat: this is a **lower bound at matched pressure** (the exact budget that
+  broke SigLIP), not proof of unconditional robustness; single seed; GPT-4o
+  cross-check deferred (two independent embedding judges + the attacked judge
+  itself already agree).
+- This is the security-architecture thesis validated in one controlled swap:
+  holding attack, brand, generator and pressure fixed, changing only the judge
+  architecture turns a shattering exploit (+0.36) into a null (+0.012). Attack
+  surface is a property of the judge, not the pressure.
+
 ## Finding 13 (July 9): hardening round — crushes the seen attack, only dampens the unseen
 - SigLIP-tuned-v3 = v1 recipe + the SRPO-hacked images folded in as a third
   negative class. Trained on pod (~$1), scored locally.
@@ -47,7 +74,7 @@
   into the 12B transformer, the strongest attack surface on the roster. 4xH100
   (2x OOM'd, borderline). Eval: 40 brand prompts x8 + 10 non-brand control
   prompts x4, tuned vs base FLUX, matched seeds/params to the BoN pool. Model:
-  HF Gupta28/judgebench-srpo-siglip-ckpt200 (private).
+  HF Gupta28/judgebench-srpo-siglip-ckpt200 (public).
 - **The reward hack is unambiguous and cross-confirmed:**
 
   | judge | brand base->tuned | control base->tuned |

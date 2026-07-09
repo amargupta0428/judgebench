@@ -81,7 +81,7 @@ cluster-level with a certified 0.0 percent near-twin leak rate.
 | QwenVL-7B zero-shot (J2b) | 0.98 | **0.31** | 0.02 | **0.94** | 0.20 |
 | QwenVL-7B LoRA (J3b) | 0.98 | 0.05 | 0.12 | 0.16 | **0.03** |
 | GPT-4o (J2) | 0.82 | 0.04 | 0.18 | 0.65 | 0.17 |
-| Gemini 2.5 Pro (J2) | *scoring in progress (daily API quota)* | | | | |
+| Gemini 2.5 Pro (J2) | 0.86 | 0.06 | 0.20 | 0.72 | 0.06 |
 
 ![Detection heatmap](docs/figures/report_card_heatmap.png)
 
@@ -97,6 +97,10 @@ What the table means, in brief:
   810 corruption negatives (palette and typography only): detection explodes on
   those families (0.06 to 0.86) and moves zero on held-out families. You cannot
   enumerate your way to a safe judge.
+- **The frozen API VLMs land mid-pack and look alike.** Gemini 2.5 Pro edges
+  GPT-4o on every column (AUC 0.86 vs 0.82, dial rho 0.72 vs 0.65) with a mild
+  logo lean (delta 0.06) and, unlike GPT-4o (ECE 0.17), it is actually
+  well-calibrated (ECE 0.06). Neither approaches the tuned judges on brand ID.
 - **Everyone is near-blind to subtle (s1) violations**: the top row of every
   optimizer's gradient, and Phase 2's predicted exploit surface.
 
@@ -176,9 +180,9 @@ artifacts. Generated FLUX/SDXL outputs are excluded for size. The hack gallery
 
 ## Trained model weights
 
-The two SRPO-attacked generator checkpoints are on Hugging Face (currently
-private): `Gupta28/judgebench-srpo-siglip-ckpt200` and
-`Gupta28/judgebench-srpo-qwen-ckpt200`.
+The two SRPO-attacked generator checkpoints are public on Hugging Face:
+[`Gupta28/judgebench-srpo-siglip-ckpt200`](https://huggingface.co/Gupta28/judgebench-srpo-siglip-ckpt200) and
+[`Gupta28/judgebench-srpo-qwen-ckpt200`](https://huggingface.co/Gupta28/judgebench-srpo-qwen-ckpt200).
 
 ## Reproduce
 
@@ -223,12 +227,12 @@ Gemini 2.5 Pro ~$4.2/1K (tier-1 daily quota applies).
   dial confounds brand-ness with coherence at high adapter scale (spot-checked).
 - The QwenVL gradient-robustness result is a lower bound at matched pressure
   (the exact budget that broke SigLIP), not proof of unconditional robustness.
-- Gemini report-card scoring is partial (API quota); the SRPO-Qwen arm's
+- The SRPO-Qwen arm's
   external GPT-4o cross-check is deferred, though two independent embedding
   judges and the attacked judge itself already agree.
 
 Rigor process (leak certification, pre-registered ablations, audit trails for
-every instrument) is logged in `docs/case_study.md`, Findings 1 through 13.
+every instrument) is logged in `docs/case_study.md`, Findings 1 through 14.
 
 *AI involvement: this project was built with heavy use of Claude (Anthropic)
 for code and analysis; all results were verified by the author.*

@@ -139,6 +139,34 @@
   "dial_frac_positive": 0.9,
   "ece": 0.16957104557640745
  },
+ "j2_gemini": {
+  "auc_vs_competitor": 0.8596802713200765,
+  "auc_vs_masked": 0.7984844647078689,
+  "auc_vs_clean": 0.7328630897317299,
+  "auc_temporal_vs_competitor": 0.8813125825379048,
+  "logo_delta": 0.06119580661220758,
+  "det_at_5fpr": {
+   "composition/s1": 0.16666666666666666,
+   "composition/s2": 0.34444444444444444,
+   "composition/s3": 0.36666666666666664,
+   "mood/s1": 0.1,
+   "mood/s2": 0.1,
+   "mood/s3": 0.43333333333333335,
+   "palette/s1": 0.06666666666666667,
+   "palette/s2": 0.03333333333333333,
+   "palette/s3": 0.13333333333333333,
+   "styling/s1": 0.1,
+   "styling/s2": 0.3333333333333333,
+   "styling/s3": 0.5666666666666667,
+   "typography/s1": 0.10666666666666667,
+   "typography/s2": 0.05333333333333334,
+   "typography/s3": 0.10666666666666667
+  },
+  "dial_spearman_mean": 0.7200000000000001,
+  "dial_spearman_sd": 0.43614888551976844,
+  "dial_frac_positive": 0.9,
+  "ece": 0.06419919246298789
+ },
  "j2b_qwen_zeroshot": {
   "auc_vs_competitor": 0.9817423806785509,
   "auc_vs_masked": 0.6733539956441615,
