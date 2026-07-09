@@ -178,11 +178,26 @@ construction records; every derived number regenerates from committed
 artifacts. Generated FLUX/SDXL outputs are excluded for size. The hack gallery
 (`docs/hack_gallery.html`) embeds a small set of our own generated exemplars.
 
-## Trained model weights
+## Models (HuggingFace)
 
-The two SRPO-attacked generator checkpoints are public on Hugging Face:
-[`Gupta28/judgebench-srpo-siglip-ckpt200`](https://huggingface.co/Gupta28/judgebench-srpo-siglip-ckpt200) and
-[`Gupta28/judgebench-srpo-qwen-ckpt200`](https://huggingface.co/Gupta28/judgebench-srpo-qwen-ckpt200).
+Every trained model the writeup discusses is public and loadable.
+
+**Judges** (each SigLIP repo includes its `calibration.json` — centroid + Platt params — so the judge is usable as-is):
+
+- [`Gupta28/judgebench-siglip-judge-v1`](https://huggingface.co/Gupta28/judgebench-siglip-judge-v1) — SigLIP-tuned v1: rhode-vs-competitor SupCon; brand AUC 0.99, violation-blind.
+- [`Gupta28/judgebench-siglip-judge-v2`](https://huggingface.co/Gupta28/judgebench-siglip-judge-v2) — v1 + 810 corruption negatives; detects trained violation families only (Finding 7).
+- [`Gupta28/judgebench-siglip-judge-v3-hardened`](https://huggingface.co/Gupta28/judgebench-siglip-judge-v3-hardened) — v1 + SRPO hacks as negatives; defeats the seen attack, dampens the unseen one (Finding 13).
+- [`Gupta28/judgebench-qwen-lora-judge`](https://huggingface.co/Gupta28/judgebench-qwen-lora-judge) — QwenVL-7B LoRA brand judge (J3b); score = P("yes").
+
+**Attack outputs (generators):**
+
+- [`Gupta28/judgebench-srpo-siglip-ckpt200`](https://huggingface.co/Gupta28/judgebench-srpo-siglip-ckpt200) — FLUX.1-dev gradient-attacked against the SigLIP judge (SRPO, ckpt 200).
+- [`Gupta28/judgebench-srpo-qwen-ckpt200`](https://huggingface.co/Gupta28/judgebench-srpo-qwen-ckpt200) — FLUX.1-dev gradient-attacked against the Qwen judge (SRPO, ckpt 200; the null result).
+- [`Gupta28/judgebench-dpo-siglip-lora`](https://huggingface.co/Gupta28/judgebench-dpo-siglip-lora) — SDXL Diffusion-DPO LoRA trained on SigLIP-judge preference pairs (the selection-pressure attack arm).
+
+**Instruments:**
+
+- [`Gupta28/judgebench-brand-dial-lora`](https://huggingface.co/Gupta28/judgebench-brand-dial-lora) — FLUX.1-dev rhode LoRA + step checkpoints; the Phase-1 brand-ness dial.
 
 ## Reproduce
 
