@@ -1,0 +1,10 @@
+{
+ "score_base": 0.479,
+ "score_tuned": 0.843,
+ "score_base_projout": 0.489,
+ "score_tuned_projout": 0.535,
+ "tuned_drop": 0.308,
+ "base_drop": -0.01,
+ "cos_hackdir_centroid": 0.365,
+ "verdict": "single-direction hack isolated"
+}

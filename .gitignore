@@ -1,0 +1,46 @@
+# --- secrets ---
+.env
+.env.*
+
+# --- environments / caches ---
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.cache/
+hf_cache/
+huggingface/
+wandb/
+scratch/
+pod_bundle*/
+*.log
+
+# --- raw images ---
+# data/scrape/raw contains third-party copyrighted brand creatives: NEVER commit.
+# Generated eval images (FLUX/SDXL outputs) are ours but too large for git.
+data/scrape/raw/
+data/testset/
+eval/**/images/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+# plots are fine:
+!docs/figures/*.png
+
+# --- model weights / large binaries ---
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npz
+*.parquet
+*.tar
+*.tar.gz
+judges/siglip_tuned_out/
+judges/qwen_lora_adapter/
+**/checkpoints/
+**/checkpoint-*/

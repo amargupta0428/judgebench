@@ -1,0 +1,38 @@
+{
+ "siglip_frozen": {
+  "bon_peak_minus_final": 0.08,
+  "bon_gold_min": 0.094
+ },
+ "siglip_tuned": {
+  "bon_peak_minus_final": 0.127,
+  "bon_gold_min": 0.149,
+  "srpo": {
+   "attacked_delta": 0.364,
+   "independent_mean": -0.09,
+   "hack_gap": 0.454,
+   "control_leak_attacked": 0.26
+  },
+  "dpo": {
+   "attacked_delta": 0.105,
+   "independent_mean": -0.003,
+   "hack_gap": 0.108,
+   "control_leak_attacked": 0.033
+  }
+ },
+ "siglip_tuned_v2": {
+  "bon_peak_minus_final": 0.0,
+  "bon_gold_min": 0.157
+ },
+ "qwen_zs": {
+  "bon_peak_minus_final": 0.0,
+  "bon_gold_min": -0.141
+ },
+ "qwen_lora": {
+  "bon_peak_minus_final": 0.166,
+  "bon_gold_min": -0.055
+ },
+ "gpt4o": {
+  "bon_peak_minus_final": 0.0,
+  "bon_gold_min": -0.142
+ }
+}

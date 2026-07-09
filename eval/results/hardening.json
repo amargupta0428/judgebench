@@ -1,0 +1,6 @@
+{
+ "v3_brand_auc_real_rhode_test": 0.997,
+ "v3_vs_v1_seen_attack_SRPO": {"v1": 0.843, "v3": 0.0, "delta": 0.843},
+ "v3_vs_v1_unseen_attack_DPO": {"v1": 0.47, "v3": 0.276, "delta": 0.194},
+ "note": "v3 = SigLIP-tuned + SRPO hacks as negatives. Fully rejects the SEEN attack (0.84->0.0) with brand AUC intact (0.997), but only partially transfers to the UNSEEN DPO attack (0.47->0.28). Hardening is strong against known attacks, weak-to-partial against novel ones."
+}

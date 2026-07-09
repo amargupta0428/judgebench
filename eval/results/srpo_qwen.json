@@ -1,0 +1,100 @@
+{
+  "arm": "srpo_qwen (gradient pressure, QwenVL-7B LoRA judge as reward)",
+  "attacked_judge": "qwen_lora",
+  "matched_to": "srpo_siglip arm (Finding 10): same generator (FLUX.1-dev), same 200 SRPO steps, same brand prompts/seeds/params",
+  "per_judge": {
+    "siglip_frozen": {
+      "brand": {
+        "base": 0.6211,
+        "tuned": 0.4446,
+        "delta": -0.1765,
+        "n_base": 320,
+        "n_tuned": 320
+      },
+      "control": {
+        "base": 0.2635,
+        "tuned": 0.2363,
+        "delta": -0.0272,
+        "n_base": 40,
+        "n_tuned": 40
+      }
+    },
+    "siglip_tuned": {
+      "brand": {
+        "base": 0.4792,
+        "tuned": 0.3661,
+        "delta": -0.1131,
+        "n_base": 320,
+        "n_tuned": 320
+      },
+      "control": {
+        "base": 0.2386,
+        "tuned": 0.2109,
+        "delta": -0.0276,
+        "n_base": 40,
+        "n_tuned": 40
+      }
+    },
+    "siglip_tuned_v2": {
+      "brand": {
+        "base": 0.3874,
+        "tuned": 0.5316,
+        "delta": 0.1442,
+        "n_base": 320,
+        "n_tuned": 320
+      },
+      "control": {
+        "base": 0.4289,
+        "tuned": 0.5656,
+        "delta": 0.1368,
+        "n_base": 40,
+        "n_tuned": 40
+      }
+    },
+    "siglip_tuned_v3": {
+      "brand": {
+        "base": 0.1099,
+        "tuned": 0.1743,
+        "delta": 0.0643,
+        "n_base": 320,
+        "n_tuned": 320
+      },
+      "control": {
+        "base": 0.0055,
+        "tuned": 0.0008,
+        "delta": -0.0047,
+        "n_base": 40,
+        "n_tuned": 40
+      }
+    },
+    "qwen_lora": {
+      "brand": {
+        "base": 0.3584,
+        "tuned": 0.37,
+        "delta": 0.0116,
+        "n_base": 320,
+        "n_tuned": 320
+      },
+      "control": {
+        "base": 0.1341,
+        "tuned": 0.1332,
+        "delta": -0.0009,
+        "n_base": 40,
+        "n_tuned": 40
+      }
+    }
+  },
+  "attacked_brand_delta": 0.0116,
+  "hack_gap_clean": 0.1564,
+  "hack_gap_clean_note": "attacked brand delta minus mean brand delta of clean independent judges (siglip frozen + tuned-v1)",
+  "hack_gap_full_panel": 0.0601,
+  "independent_mean_brand_delta_clean": -0.1448,
+  "control_leakage_attacked": -0.0009,
+  "comparison_siglip_arm": {
+    "attacked_brand_delta": 0.36,
+    "hack_gap": 0.45,
+    "control_leakage": 0.26,
+    "source": "docs/case_study.md Finding 10"
+  },
+  "verdict": "gradient attack FAILED against the 7B generative-VLM judge: target barely moved (+0.01) while clean independent judges saw brand quality FALL (~-0.15); ~7x weaker attack surface than the SigLIP embedding-similarity judge at matched pressure."
+}
