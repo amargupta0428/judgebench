@@ -1,5 +1,26 @@
 # judgebench — case study log
 
+## Finding 15 (July 9): DPO preference attack via GPT-4o — the frozen API judge gets gamed too
+- Twin of the SigLIP-DPO arm (Finding 11), but the reward is GPT-4o's own
+  preferences: SDXL Diffusion-DPO-LoRA on pairs where GPT-4o's top-rated
+  candidate is the chosen image. 750 steps, ck250/500/750, eval matched to the
+  other arms (40 brand x8 + 10 control x4 over base + 3 checkpoints, 1,440
+  images, GPT-4o scored 1,440/1,440, 0 errors). Full writeup:
+  `docs/dpo_gpt4o_findings.md`.
+- **GPT-4o is mildly gamed by preference training — brand 0.765 -> 0.790 ->
+  0.813 -> 0.848 (+0.083, monotone), independent SigLIP panel flat (-0.001) ->
+  hack-gap 0.085.** Control leakage +0.058 (control also rose 0.258 -> 0.315),
+  so it is a *soft* hack — part general quality gain, not the hard
+  reward-collapse SRPO produced.
+- **The security point:** the frozen API judge is nearly as gameable by DPO as
+  the trainable SigLIP (0.085 vs 0.11), because DPO consumes only the judge's
+  *labels*, not its weights. Weight-inaccessibility blunts BoN (0.00) and
+  removes gradients (SRPO n/a) but buys almost nothing against offline
+  preference training. GPT-4o's attack row, one line per access level:
+  BoN/selection **0.00 (resisted)** < DPO/preference **0.085 (gamed)** <<
+  SRPO/gradient **n/a**. Robust to selection, only partially robust to
+  preference.
+
 ## Finding 14 (July 9): SRPO gradient attack on QwenVL — the clean null control
 - The identical attack that shattered SigLIP (Finding 10) — same 200 SRPO steps
   on FLUX.1-dev, same brand prompts/seeds/params, same pressure budget — aimed at

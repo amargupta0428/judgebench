@@ -119,14 +119,21 @@ with the judge as the differentiable reward.
 | SigLIP tuned v2 | 0.00 | not run | not run |
 | QwenVL zero-shot | 0.00 | not run | not run |
 | QwenVL LoRA | 0.17 | not run | 0.16 clean-gap, target **+0.01** (null; leak -0.00) |
-| GPT-4o | 0.00 | not run | not attackable (no gradients) |
+| GPT-4o | 0.00 | **0.085** (control leak +0.06) | not attackable (no gradients) |
 
-Honest scoping: the DPO arm was run against SigLIP-tuned v1 only (the judge the
-other two arms also target), so the three-arm ordering is measured on a single
-judge. SRPO was run against the two judges with open differentiable weights;
-API judges structurally face only the selection arm. Full numbers:
-`eval/results/leaderboard.json`, `eval/results/bon_curves.json`,
-`eval/results/srpo_qwen.json`.
+GPT-4o under DPO: robust to *selection* (BoN 0.00) but only *partially* robust
+to *preference* training (hack-gap 0.085, brand 0.765 -> 0.848 monotone while an
+independent SigLIP panel stays flat). The frozen API judge is nearly as gameable
+by DPO as the trainable SigLIP (0.085 vs 0.11) — because DPO consumes only the
+judge's *labels*, not its weights, so weight-inaccessibility buys it almost
+nothing here (see `docs/dpo_gpt4o_findings.md`).
+
+Honest scoping: DPO was run against two judges — SigLIP-tuned v1 (0.11) and
+GPT-4o (0.085), one trainable reward model and one frozen API judge. SRPO was
+run against the two judges with open differentiable weights; API judges
+structurally face only selection and preference arms, not gradients. Full
+numbers: `eval/results/leaderboard.json`, `eval/results/bon_curves.json`,
+`eval/results/dpo_gpt4o.json`, `eval/results/srpo_qwen.json`.
 
 ### The gradient control: SigLIP shatters, QwenVL holds
 

@@ -112,9 +112,12 @@ def main():
 
     # DPO arm attacked via GPT-4o preferences (twin of the SigLIP-DPO arm).
     # Attacked judge = gpt4o (scores from the j2 cache); independent panel =
-    # the SigLIP judges scored over the same images.
+    # the SigLIP judges scored over the same images. Only populate once the
+    # attacked judge (gpt4o) has scored the final checkpoint-750 stage —
+    # otherwise the hack-gap has no post-attack point.
     dpo_gpt = REPO / "eval/dpo_gpt4o/siglip_scores.json"
-    if dpo_gpt.exists():
+    if dpo_gpt.exists() and _vlm_eval_deltas_prefix(
+            "j2_gpt4o_dpogpt4oeval", "checkpoint-750"):
         gap = attack_gap(dpo_gpt, "j2_gpt4o_dpogpt4oeval", attacked="gpt4o",
                          tuned_prefix="checkpoint-750")
         board["gpt4o"]["dpo"] = gap

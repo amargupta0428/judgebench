@@ -1,0 +1,6 @@
+{
+ "attacked_delta": 0.083,
+ "independent_mean": -0.001,
+ "hack_gap": 0.085,
+ "control_leak_attacked": 0.058
+}
