@@ -1,5 +1,34 @@
 # judgebench — case study log
 
+## Finding 16 (July 12): Probe B — source separability is content, not pipeline artifacts
+- The deferred third validity probe (A temporal / B source / C null), now run.
+  Question: could the judges' brand signal be riding platform fingerprints
+  (ad-pipeline compression, color grading) rather than creative identity?
+  Code: `eval/audit/probe_b_source.py`; numbers: `eval/results/probe_b_source.json`.
+- **Stage 1 (upper bound):** within-brand fb-vs-ig logistic regression on
+  frozen SigLIP embeddings, cluster-aware splits (reused splits_v2, no twin
+  leakage). Source is HIGHLY separable: bal-acc rhode 0.72 / glossier 0.97 /
+  ilia 0.94 (label-permutation floors ~0.5). Content differences are
+  confounded in, so this alone cannot attribute.
+- **Stage 2 (gold, content-matched):** the 29 mixed-source hybrid clusters
+  are natural matched pairs — the same creative captured through both
+  pipelines. Match quality was verified BY EYE (all 29 pairs inspected,
+  July 13): 27 are strictly the same creative (same shot/asset, differing
+  only in crop, canvas extension, or text placement — exactly the pipeline
+  variation the probe targets); 2 loose same-campaign matches (h0000,
+  h0039) were excluded. Training with all mixed clusters held out and
+  scoring only the strict set: rhode AUC **0.493, cluster-bootstrap 95%
+  CI [0.38, 0.62]** (178 images / 23 clusters) — dead on chance. (All-29
+  variant: 0.545 [0.42, 0.68]; ilia 4-cluster set: 0.43; glossier has no
+  mixed clusters.) With content held constant, source separation collapses.
+- **Reading:** fb/ig separability is real but *content-driven* — brands post
+  different creative to ads vs. organic. No evidence of pipeline-artifact
+  signal in the judges' representation space; the Phase 1 open question
+  ("source-artifact entanglement") closes on the null side. Limitations:
+  gold subset is rhode-dominated (25 effective units); artifacts strong
+  enough to break near-dup clustering would be underrepresented by
+  construction.
+
 ## Finding 15 (July 9): DPO preference attack via GPT-4o — the frozen API judge gets gamed too
 - Twin of the SigLIP-DPO arm (Finding 11), but the reward is GPT-4o's own
   preferences: SDXL Diffusion-DPO-LoRA on pairs where GPT-4o's top-rated

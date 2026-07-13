@@ -1,0 +1,85 @@
+{
+  "rhode": {
+    "n_train": 1109,
+    "n_test": 704,
+    "test_fb": 282,
+    "test_ig": 422,
+    "balanced_acc": 0.7191,
+    "auc": 0.8461,
+    "perm_floor_mean": 0.5149,
+    "gold_mixed_clusters": {
+      "n": 103,
+      "n_clusters": 11,
+      "auc": 0.3874,
+      "bal_acc": 0.3631
+    }
+  },
+  "glossier": {
+    "n_train": 568,
+    "n_test": 194,
+    "test_fb": 30,
+    "test_ig": 164,
+    "balanced_acc": 0.9711,
+    "auc": 0.9907,
+    "perm_floor_mean": 0.3937,
+    "gold_mixed_clusters": null
+  },
+  "ilia": {
+    "n_train": 542,
+    "n_test": 176,
+    "test_fb": 31,
+    "test_ig": 145,
+    "balanced_acc": 0.9402,
+    "auc": 0.9662,
+    "perm_floor_mean": 0.5254,
+    "gold_mixed_clusters": {
+      "n": 3,
+      "n_clusters": 1,
+      "auc": 0.5,
+      "bal_acc": 0.5
+    }
+  },
+  "gold_all_mixed_leaveout": {
+    "rhode": {
+      "n_imgs": 210,
+      "n_clusters": 25,
+      "fb": 185,
+      "ig": 25,
+      "auc": 0.5453,
+      "auc_ci95": [
+        0.4166,
+        0.6829
+      ],
+      "bal_acc": 0.4708
+    },
+    "glossier": null,
+    "ilia": {
+      "n_imgs": 14,
+      "n_clusters": 4,
+      "fb": 10,
+      "ig": 4,
+      "auc": 0.425,
+      "auc_ci95": [
+        0.3864,
+        0.7727
+      ],
+      "bal_acc": 0.5
+    }
+  },
+  "gold_strict_visual_audit": {
+    "n_imgs": 178,
+    "n_clusters": 23,
+    "fb": 155,
+    "ig": 23,
+    "auc": 0.4934,
+    "auc_ci95": [
+      0.3777,
+      0.6187
+    ],
+    "excluded_loose": [
+      "h0000",
+      "h0039"
+    ],
+    "visual_audit": "all 29 mixed clusters eyeballed July 13; 27 strict same-creative, 2 loose excluded"
+  }
+}

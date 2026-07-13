@@ -38,6 +38,11 @@ land exactly where the report card predicted. They do.
   seen attack (0.84 to 0.00, brand AUC intact at 0.997) but only dampens the
   unseen DPO attack (0.47 to 0.28). You can harden against what you have seen;
   novel attacks retain partial traction.
+- **Corpus validity (Probe B):** Ad-Library and Instagram images are highly
+  separable within a brand (bal-acc 0.72-0.97) — but on 27 visually verified
+  same-creative pairs that appear on both platforms, separation collapses to
+  chance (AUC 0.49, CI [0.38, 0.62]). The separability is content mix, not
+  pipeline artifacts: no platform fingerprint for a judge to ride.
 
 **Conclusion: judge choice is a security-architecture decision.** Different
 judge types expose different attack surfaces: a differentiable embedding
@@ -170,7 +175,7 @@ testbed/  corruption generators, LoRA dial, BoN pool, DPO and SRPO attack code
 judges/   j1 rules, j2 API VLMs, j3 SigLIP fits, pod jobs (SigLIP tune, Qwen LoRA)
 eval/     testset index, scoring, report card, BoN curves, leaderboard,
           mechanistic peek, hardening; results JSONs in eval/results/
-docs/     case_study.md (Findings 1-13), srpo_qwen_findings.md, figures,
+docs/     case_study.md (Findings 1-16), srpo_qwen_findings.md, figures,
           hack_gallery.html
 ```
 
@@ -254,7 +259,7 @@ Gemini 2.5 Pro ~$4.2/1K (tier-1 daily quota applies).
   judges and the attacked judge itself already agree.
 
 Rigor process (leak certification, pre-registered ablations, audit trails for
-every instrument) is logged in `docs/case_study.md`, Findings 1 through 14.
+every instrument) is logged in `docs/case_study.md`, Findings 1 through 16.
 
 *AI involvement: this project was built with heavy use of Claude (Anthropic)
 for code and analysis; all results were verified by the author.*
