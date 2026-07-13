@@ -1,0 +1,25 @@
+{
+ "n_paired_slots": 320,
+ "attacked_delta": 0.0331,
+ "attacked_ci95": [
+  0.0077,
+  0.0586
+ ],
+ "panel_delta": 0.031,
+ "panel_ci95": [
+  0.0172,
+  0.0452
+ ],
+ "hack_gap": 0.0021,
+ "hack_gap_ci95": [
+  -0.0264,
+  0.0298
+ ],
+ "per_judge_delta": {
+  "siglip_frozen": 0.0397,
+  "siglip_tuned": 0.0122,
+  "siglip_tuned_v2": 0.0415,
+  "siglip_tuned_v3": 0.0307
+ },
+ "attacked_control_delta": -0.0064
+}

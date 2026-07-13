@@ -1,0 +1,11 @@
+steps   0- 25: mean loss 0.6917  mean implicit_acc 0.601  (n=232)
+steps  50-100: mean loss 0.6836  mean implicit_acc 0.648  (n=456)
+steps 125-175: mean loss 0.6761  mean implicit_acc 0.668  (n=453)
+steps 225-275: mean loss 0.6629  mean implicit_acc 0.720  (n=456)
+steps 325-375: mean loss 0.6475  mean implicit_acc 0.727  (n=456)
+steps 425-475: mean loss 0.6361  mean implicit_acc 0.734  (n=456)
+steps 475-525: mean loss 0.6317  mean implicit_acc 0.735  (n=456)
+steps 575-625: mean loss 0.6300  mean implicit_acc 0.725  (n=456)
+steps 675-725: mean loss 0.6055  mean implicit_acc 0.757  (n=456)
+steps 725-750: mean loss 0.6101  mean implicit_acc 0.757  (n=228)
+last step 750: [(0.5, 0.666), (1.0, 0.673), (1.0, 0.673)]

@@ -1,5 +1,32 @@
 # judgebench — case study log
 
+## Finding 17 (July 13): DPO preference attack on QwenVL-LoRA — prediction falsified, the coarse judge resists
+- The last empty cell in the judge × pressure matrix, run under a
+  pre-registered prediction (RIGOR_LOG July 12): the Finding 15 interface
+  claim implied DPO should game Qwen-LoRA at GPT-4o magnitude (~0.08–0.10)
+  because DPO consumes only rankings. Matched recipe (SDXL DPO-LoRA, 750
+  steps, 665 pairs from the BoN pool under Qwen-LoRA's own scores). Full
+  writeup: `docs/dpo_qwen_findings.md`; numbers: `eval/results/dpo_qwen.json`.
+- **The prediction is falsified: hack-gap +0.002, 95% CI [−0.026, +0.030].**
+  Attacked judge +0.033 [0.008, 0.059], but the independent SigLIP panel
+  climbed identically (+0.031 [0.017, 0.045]); control leakage −0.006. DPO
+  demonstrably learned the judge's preferences (loss 0.693→0.610, implicit
+  acc 0.757 — same signature as the gamed arms) but the learning produced
+  *genuine* brand improvement every judge sees, not judge-specific inflation.
+- **Refined claim: interface access determines which attacks are possible;
+  how much judge-specific idiosyncrasy the labels leak determines whether
+  they land.** Qwen-LoRA's near-binary scores (the collapsed dial, Finding 8)
+  make its top-vs-bottom pairs encode the coarse true brand boundary —
+  nothing idiosyncratic to steal. GPT-4o's continuous rubric leaks mid-range
+  taste, and DPO learned exactly that (0.085).
+- **The completed matrix has no single robustness ordering.** Qwen-LoRA is
+  the most fragile judge under selection (BoN peak N=16, negative by N=256)
+  yet the most robust under preference training (0.002) and gradients
+  (+0.012): different pressure types exploit different failure modes of the
+  same judge. Score granularity emerges as a robustness knob: coarse judges
+  are bad rankers but hard targets; continuous judges are good rankers and
+  soft targets.
+
 ## Finding 16 (July 12): Probe B — source separability is content, not pipeline artifacts
 - The deferred third validity probe (A temporal / B source / C null), now run.
   Question: could the judges' brand signal be riding platform fingerprints

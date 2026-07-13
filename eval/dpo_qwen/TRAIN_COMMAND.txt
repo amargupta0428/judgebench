@@ -1,0 +1,29 @@
+# DPO preference attack vs QwenVL-7B-LoRA judge (J3b) — exact training command
+# Pod: RunPod 1x A6000 (48GB), image runpod/pytorch:2.8.0-py3.11-cuda12.8.1-cudnn-devel-ubuntu22.04
+# Script: huggingface/diffusers examples/research_projects/diffusion_dpo/train_diffusion_dpo_sdxl.py
+#   (clone --depth 1 of huggingface/diffusers main; script patched to pass
+#   data_files=os.environ["DPO_DATA_FILES"] into load_dataset — same patch as the
+#   SigLIP-tuned and GPT-4o arms)
+# Data: eval/bon/dpo_qwen_lora.parquet (665 pairs, jpg_0/jpg_1/label_0/caption, label_0=1)
+# Matched to Finding 11 (SigLIP-tuned arm) and Finding 15 (GPT-4o arm) exactly.
+
+cd /workspace/diffusers/examples/research_projects/diffusion_dpo
+DPO_DATA_FILES=/workspace/dpo_qwen_lora.parquet WANDB_MODE=disabled accelerate launch train_diffusion_dpo_sdxl.py \
+  --pretrained_model_name_or_path=stabilityai/stable-diffusion-xl-base-1.0 \
+  --pretrained_vae_model_name_or_path=madebyollin/sdxl-vae-fp16-fix \
+  --output_dir=/workspace/dpo_out_qwen_lora \
+  --mixed_precision=fp16 \
+  --dataset_name=parquet \
+  --dataset_split_name=train \
+  --train_batch_size=2 \
+  --gradient_accumulation_steps=8 \
+  --gradient_checkpointing \
+  --use_8bit_adam \
+  --rank=8 \
+  --learning_rate=1e-5 \
+  --lr_scheduler=constant \
+  --lr_warmup_steps=0 \
+  --max_train_steps=750 \
+  --checkpointing_steps=250 \
+  --resolution=1024 \
+  --seed=0

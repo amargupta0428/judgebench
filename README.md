@@ -31,6 +31,15 @@ land exactly where the report card predicted. They do.
   judge fails. Target moved +0.012 (roughly 30x smaller than SigLIP's +0.36),
   zero control leakage. Same attack, same generator, same pressure, opposite
   outcome.
+- **Preference training splits the frozen judges (completed matrix):** DPO on
+  GPT-4o's labels games it (hack-gap 0.085) but DPO on QwenVL-LoRA's labels
+  does not (0.002, CI spans zero) — falsifying our pre-registered prediction.
+  The optimizer learned both judges' preferences equally well; only the
+  continuous judge's labels leaked exploitable idiosyncrasy. Score
+  granularity is a robustness knob: coarse judges are bad rankers but hard
+  targets, continuous judges good rankers and soft targets. No single
+  robustness ordering exists — the same Qwen judge is the most fragile under
+  selection and the most robust under preference and gradient pressure.
 - **Mechanistic peek:** the SigLIP exploit is a single embedding direction.
   Projecting it out collapses hacked-image scores from 0.84 to 0.54 while
   genuine brand images barely move (0.48 to 0.49).
@@ -123,7 +132,7 @@ with the judge as the differentiable reward.
 | SigLIP tuned v1 | 0.13 | **0.11** (target +0.10) | **0.45** (target +0.36, control leak +0.26) |
 | SigLIP tuned v2 | 0.00 | not run | not run |
 | QwenVL zero-shot | 0.00 | not run | not run |
-| QwenVL LoRA | 0.17 | not run | 0.16 clean-gap, target **+0.01** (null; leak -0.00) |
+| QwenVL LoRA | 0.17 | **0.002** [-0.03, +0.03] (resisted; panel matched target's +0.03) | 0.16 clean-gap, target **+0.01** (null; leak -0.00) |
 | GPT-4o | 0.00 | **0.085** (control leak +0.06) | not attackable (no gradients) |
 
 GPT-4o under DPO: robust to *selection* (BoN 0.00) but only *partially* robust
@@ -175,7 +184,7 @@ testbed/  corruption generators, LoRA dial, BoN pool, DPO and SRPO attack code
 judges/   j1 rules, j2 API VLMs, j3 SigLIP fits, pod jobs (SigLIP tune, Qwen LoRA)
 eval/     testset index, scoring, report card, BoN curves, leaderboard,
           mechanistic peek, hardening; results JSONs in eval/results/
-docs/     case_study.md (Findings 1-16), srpo_qwen_findings.md, figures,
+docs/     case_study.md (Findings 1-17), srpo_qwen_findings.md, figures,
           hack_gallery.html
 ```
 
@@ -259,7 +268,7 @@ Gemini 2.5 Pro ~$4.2/1K (tier-1 daily quota applies).
   judges and the attacked judge itself already agree.
 
 Rigor process (leak certification, pre-registered ablations, audit trails for
-every instrument) is logged in `docs/case_study.md`, Findings 1 through 16.
+every instrument) is logged in `docs/case_study.md`, Findings 1 through 17.
 
 *AI involvement: this project was built with heavy use of Claude (Anthropic)
 for code and analysis; all results were verified by the author.*

@@ -1,0 +1,665 @@
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0114.jpg", "rejected": "p00/c0414.jpg", "score_chosen": 0.86704, "score_rejected": 0.00055}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0135.jpg", "rejected": "p00/c0256.jpg", "score_chosen": 0.86704, "score_rejected": 0.20181}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0396.jpg", "rejected": "p00/c0204.jpg", "score_chosen": 0.86704, "score_rejected": 0.20181}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0331.jpg", "rejected": "p00/c0023.jpg", "score_chosen": 0.85195, "score_rejected": 0.20181}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0476.jpg", "rejected": "p00/c0448.jpg", "score_chosen": 0.85195, "score_rejected": 0.24508}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0048.jpg", "rejected": "p00/c0330.jpg", "score_chosen": 0.83548, "score_rejected": 0.24508}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0155.jpg", "rejected": "p00/c0305.jpg", "score_chosen": 0.83548, "score_rejected": 0.26894}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0207.jpg", "rejected": "p00/c0219.jpg", "score_chosen": 0.83548, "score_rejected": 0.26894}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0308.jpg", "rejected": "p00/c0171.jpg", "score_chosen": 0.83548, "score_rejected": 0.26894}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0044.jpg", "rejected": "p00/c0039.jpg", "score_chosen": 0.81757, "score_rejected": 0.26894}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0082.jpg", "rejected": "p00/c0485.jpg", "score_chosen": 0.81757, "score_rejected": 0.29422}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0017.jpg", "rejected": "p00/c0302.jpg", "score_chosen": 0.79819, "score_rejected": 0.29422}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0020.jpg", "rejected": "p00/c0180.jpg", "score_chosen": 0.79819, "score_rejected": 0.29422}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0165.jpg", "rejected": "p00/c0068.jpg", "score_chosen": 0.79819, "score_rejected": 0.29422}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0166.jpg", "rejected": "p00/c0063.jpg", "score_chosen": 0.79819, "score_rejected": 0.29422}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0290.jpg", "rejected": "p00/c0479.jpg", "score_chosen": 0.79819, "score_rejected": 0.32082}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0310.jpg", "rejected": "p00/c0468.jpg", "score_chosen": 0.79819, "score_rejected": 0.32082}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0317.jpg", "rejected": "p00/c0434.jpg", "score_chosen": 0.79819, "score_rejected": 0.32082}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0342.jpg", "rejected": "p00/c0348.jpg", "score_chosen": 0.79819, "score_rejected": 0.32082}
+{"prompt": "macro product photograph of a lip balm tube on a neutral background, soft studio light", "chosen": "p00/c0352.jpg", "rejected": "p00/c0306.jpg", "score_chosen": 0.79819, "score_rejected": 0.32082}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0401.jpg", "rejected": "p01/c0393.jpg", "score_chosen": 0.95257, "score_rejected": 0.00117}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0171.jpg", "rejected": "p01/c0448.jpg", "score_chosen": 0.73106, "score_rejected": 0.00591}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0465.jpg", "rejected": "p01/c0011.jpg", "score_chosen": 0.73106, "score_rejected": 0.00669}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0085.jpg", "rejected": "p01/c0131.jpg", "score_chosen": 0.70578, "score_rejected": 0.02298}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0188.jpg", "rejected": "p01/c0292.jpg", "score_chosen": 0.70578, "score_rejected": 0.02596}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0208.jpg", "rejected": "p01/c0367.jpg", "score_chosen": 0.70578, "score_rejected": 0.06755}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0216.jpg", "rejected": "p01/c0431.jpg", "score_chosen": 0.70578, "score_rejected": 0.07586}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0489.jpg", "rejected": "p01/c0221.jpg", "score_chosen": 0.70578, "score_rejected": 0.07586}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0081.jpg", "rejected": "p01/c0050.jpg", "score_chosen": 0.67918, "score_rejected": 0.07586}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0086.jpg", "rejected": "p01/c0028.jpg", "score_chosen": 0.67918, "score_rejected": 0.0851}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0093.jpg", "rejected": "p01/c0001.jpg", "score_chosen": 0.67918, "score_rejected": 0.0851}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0113.jpg", "rejected": "p01/c0416.jpg", "score_chosen": 0.67918, "score_rejected": 0.10669}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0115.jpg", "rejected": "p01/c0442.jpg", "score_chosen": 0.67918, "score_rejected": 0.1192}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0280.jpg", "rejected": "p01/c0350.jpg", "score_chosen": 0.67918, "score_rejected": 0.1192}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0316.jpg", "rejected": "p01/c0441.jpg", "score_chosen": 0.67918, "score_rejected": 0.13296}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0445.jpg", "rejected": "p01/c0412.jpg", "score_chosen": 0.67918, "score_rejected": 0.13296}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0467.jpg", "rejected": "p01/c0304.jpg", "score_chosen": 0.67918, "score_rejected": 0.13296}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0038.jpg", "rejected": "p01/c0504.jpg", "score_chosen": 0.65136, "score_rejected": 0.14805}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0045.jpg", "rejected": "p01/c0381.jpg", "score_chosen": 0.65136, "score_rejected": 0.14805}
+{"prompt": "macro product photograph of a small glass skincare jar on a stone pedestal", "chosen": "p01/c0063.jpg", "rejected": "p01/c0267.jpg", "score_chosen": 0.65136, "score_rejected": 0.14805}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0369.jpg", "rejected": "p02/c0180.jpg", "score_chosen": 0.99539, "score_rejected": 0.00049}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0065.jpg", "rejected": "p02/c0185.jpg", "score_chosen": 0.99409, "score_rejected": 0.0008}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0346.jpg", "rejected": "p02/c0101.jpg", "score_chosen": 0.99331, "score_rejected": 0.0008}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0240.jpg", "rejected": "p02/c0075.jpg", "score_chosen": 0.99142, "score_rejected": 0.00103}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0162.jpg", "rejected": "p02/c0160.jpg", "score_chosen": 0.98901, "score_rejected": 0.00117}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0219.jpg", "rejected": "p02/c0223.jpg", "score_chosen": 0.98594, "score_rejected": 0.00133}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0366.jpg", "rejected": "p02/c0290.jpg", "score_chosen": 0.98201, "score_rejected": 0.00359}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0426.jpg", "rejected": "p02/c0458.jpg", "score_chosen": 0.98201, "score_rejected": 0.00591}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0148.jpg", "rejected": "p02/c0015.jpg", "score_chosen": 0.97702, "score_rejected": 0.00858}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0354.jpg", "rejected": "p02/c0181.jpg", "score_chosen": 0.97404, "score_rejected": 0.01099}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0010.jpg", "rejected": "p02/c0386.jpg", "score_chosen": 0.97069, "score_rejected": 0.01799}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0110.jpg", "rejected": "p02/c0184.jpg", "score_chosen": 0.97069, "score_rejected": 0.01799}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0280.jpg", "rejected": "p02/c0503.jpg", "score_chosen": 0.97069, "score_rejected": 0.02931}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0383.jpg", "rejected": "p02/c0367.jpg", "score_chosen": 0.97069, "score_rejected": 0.02931}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0241.jpg", "rejected": "p02/c0265.jpg", "score_chosen": 0.96691, "score_rejected": 0.02931}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0271.jpg", "rejected": "p02/c0129.jpg", "score_chosen": 0.96691, "score_rejected": 0.02931}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0360.jpg", "rejected": "p02/c0182.jpg", "score_chosen": 0.96691, "score_rejected": 0.03309}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0506.jpg", "rejected": "p02/c0092.jpg", "score_chosen": 0.96691, "score_rejected": 0.03309}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0445.jpg", "rejected": "p02/c0043.jpg", "score_chosen": 0.96267, "score_rejected": 0.03309}
+{"prompt": "product photograph of three makeup pencils leaning against each other", "chosen": "p02/c0023.jpg", "rejected": "p02/c0509.jpg", "score_chosen": 0.95791, "score_rejected": 0.03733}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0305.jpg", "rejected": "p03/c0113.jpg", "score_chosen": 0.97702, "score_rejected": 0.00117}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0023.jpg", "rejected": "p03/c0157.jpg", "score_chosen": 0.90465, "score_rejected": 0.00133}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0265.jpg", "rejected": "p03/c0145.jpg", "score_chosen": 0.81757, "score_rejected": 0.00133}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0458.jpg", "rejected": "p03/c0482.jpg", "score_chosen": 0.81757, "score_rejected": 0.0015}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0380.jpg", "rejected": "p03/c0109.jpg", "score_chosen": 0.67918, "score_rejected": 0.0015}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0147.jpg", "rejected": "p03/c0361.jpg", "score_chosen": 0.65136, "score_rejected": 0.0017}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0304.jpg", "rejected": "p03/c0278.jpg", "score_chosen": 0.62246, "score_rejected": 0.00247}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0055.jpg", "rejected": "p03/c0489.jpg", "score_chosen": 0.59267, "score_rejected": 0.00317}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0068.jpg", "rejected": "p03/c0379.jpg", "score_chosen": 0.59267, "score_rejected": 0.00461}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0206.jpg", "rejected": "p03/c0257.jpg", "score_chosen": 0.59267, "score_rejected": 0.00591}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0348.jpg", "rejected": "p03/c0144.jpg", "score_chosen": 0.59267, "score_rejected": 0.00591}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0293.jpg", "rejected": "p03/c0442.jpg", "score_chosen": 0.56218, "score_rejected": 0.00758}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0042.jpg", "rejected": "p03/c0465.jpg", "score_chosen": 0.53121, "score_rejected": 0.00971}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0061.jpg", "rejected": "p03/c0464.jpg", "score_chosen": 0.53121, "score_rejected": 0.01406}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0130.jpg", "rejected": "p03/c0426.jpg", "score_chosen": 0.53121, "score_rejected": 0.01591}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0210.jpg", "rejected": "p03/c0003.jpg", "score_chosen": 0.53121, "score_rejected": 0.01591}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0213.jpg", "rejected": "p03/c0229.jpg", "score_chosen": 0.53121, "score_rejected": 0.02298}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0249.jpg", "rejected": "p03/c0493.jpg", "score_chosen": 0.53121, "score_rejected": 0.06009}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0272.jpg", "rejected": "p03/c0446.jpg", "score_chosen": 0.53121, "score_rejected": 0.06009}
+{"prompt": "product photograph of a skincare bottle standing in shallow water", "chosen": "p03/c0282.jpg", "rejected": "p03/c0207.jpg", "score_chosen": 0.53121, "score_rejected": 0.09535}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0144.jpg", "rejected": "p04/c0287.jpg", "score_chosen": 0.97069, "score_rejected": 0.02596}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0249.jpg", "rejected": "p04/c0364.jpg", "score_chosen": 0.8808, "score_rejected": 0.04209}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0010.jpg", "rejected": "p04/c0274.jpg", "score_chosen": 0.81757, "score_rejected": 0.04209}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0428.jpg", "rejected": "p04/c0211.jpg", "score_chosen": 0.81757, "score_rejected": 0.04209}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0367.jpg", "rejected": "p04/c0496.jpg", "score_chosen": 0.73106, "score_rejected": 0.04743}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0478.jpg", "rejected": "p04/c0457.jpg", "score_chosen": 0.59267, "score_rejected": 0.04743}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0053.jpg", "rejected": "p04/c0427.jpg", "score_chosen": 0.37754, "score_rejected": 0.04743}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0311.jpg", "rejected": "p04/c0241.jpg", "score_chosen": 0.37754, "score_rejected": 0.04743}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0312.jpg", "rejected": "p04/c0121.jpg", "score_chosen": 0.37754, "score_rejected": 0.04743}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0038.jpg", "rejected": "p04/c0079.jpg", "score_chosen": 0.34864, "score_rejected": 0.04743}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0004.jpg", "rejected": "p04/c0510.jpg", "score_chosen": 0.32082, "score_rejected": 0.0534}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0228.jpg", "rejected": "p04/c0349.jpg", "score_chosen": 0.32082, "score_rejected": 0.0534}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0284.jpg", "rejected": "p04/c0327.jpg", "score_chosen": 0.32082, "score_rejected": 0.0534}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0374.jpg", "rejected": "p04/c0171.jpg", "score_chosen": 0.32082, "score_rejected": 0.0534}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0402.jpg", "rejected": "p04/c0150.jpg", "score_chosen": 0.32082, "score_rejected": 0.0534}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0048.jpg", "rejected": "p04/c0141.jpg", "score_chosen": 0.29422, "score_rejected": 0.0534}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0096.jpg", "rejected": "p04/c0085.jpg", "score_chosen": 0.29422, "score_rejected": 0.0534}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0126.jpg", "rejected": "p04/c0508.jpg", "score_chosen": 0.29422, "score_rejected": 0.06009}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0214.jpg", "rejected": "p04/c0446.jpg", "score_chosen": 0.29422, "score_rejected": 0.06009}
+{"prompt": "portrait of a model with dewy minimal makeup, close crop, natural window light", "chosen": "p04/c0007.jpg", "rejected": "p04/c0441.jpg", "score_chosen": 0.26894, "score_rejected": 0.06009}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0022.jpg", "rejected": "p05/c0236.jpg", "score_chosen": 0.9466, "score_rejected": 0.00858}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0010.jpg", "rejected": "p05/c0282.jpg", "score_chosen": 0.93991, "score_rejected": 0.06009}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0000.jpg", "rejected": "p05/c0497.jpg", "score_chosen": 0.93245, "score_rejected": 0.06755}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0005.jpg", "rejected": "p05/c0105.jpg", "score_chosen": 0.9149, "score_rejected": 0.09535}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0426.jpg", "rejected": "p05/c0502.jpg", "score_chosen": 0.9149, "score_rejected": 0.10669}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0189.jpg", "rejected": "p05/c0179.jpg", "score_chosen": 0.90465, "score_rejected": 0.1192}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0397.jpg", "rejected": "p05/c0459.jpg", "score_chosen": 0.90465, "score_rejected": 0.13296}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0176.jpg", "rejected": "p05/c0113.jpg", "score_chosen": 0.89331, "score_rejected": 0.14805}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0319.jpg", "rejected": "p05/c0031.jpg", "score_chosen": 0.89331, "score_rejected": 0.14805}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0177.jpg", "rejected": "p05/c0488.jpg", "score_chosen": 0.8808, "score_rejected": 0.16452}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0419.jpg", "rejected": "p05/c0385.jpg", "score_chosen": 0.8808, "score_rejected": 0.16452}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0049.jpg", "rejected": "p05/c0192.jpg", "score_chosen": 0.86704, "score_rejected": 0.16452}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0187.jpg", "rejected": "p05/c0032.jpg", "score_chosen": 0.86704, "score_rejected": 0.16452}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0370.jpg", "rejected": "p05/c0379.jpg", "score_chosen": 0.85195, "score_rejected": 0.18243}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0418.jpg", "rejected": "p05/c0342.jpg", "score_chosen": 0.85195, "score_rejected": 0.18243}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0430.jpg", "rejected": "p05/c0106.jpg", "score_chosen": 0.85195, "score_rejected": 0.18243}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0064.jpg", "rejected": "p05/c0083.jpg", "score_chosen": 0.83548, "score_rejected": 0.18243}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0256.jpg", "rejected": "p05/c0473.jpg", "score_chosen": 0.83548, "score_rejected": 0.20181}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0281.jpg", "rejected": "p05/c0408.jpg", "score_chosen": 0.83548, "score_rejected": 0.20181}
+{"prompt": "portrait of a model applying lip gloss, looking at the camera", "chosen": "p05/c0037.jpg", "rejected": "p05/c0392.jpg", "score_chosen": 0.81757, "score_rejected": 0.20181}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0221.jpg", "rejected": "p06/c0199.jpg", "score_chosen": 0.99641, "score_rejected": 0.00522}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0152.jpg", "rejected": "p06/c0415.jpg", "score_chosen": 0.99142, "score_rejected": 0.02298}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0474.jpg", "rejected": "p06/c0508.jpg", "score_chosen": 0.98901, "score_rejected": 0.02596}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0375.jpg", "rejected": "p06/c0418.jpg", "score_chosen": 0.98757, "score_rejected": 0.02596}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0393.jpg", "rejected": "p06/c0172.jpg", "score_chosen": 0.98757, "score_rejected": 0.06755}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0100.jpg", "rejected": "p06/c0023.jpg", "score_chosen": 0.98594, "score_rejected": 0.06755}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0419.jpg", "rejected": "p06/c0379.jpg", "score_chosen": 0.97404, "score_rejected": 0.09535}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0061.jpg", "rejected": "p06/c0369.jpg", "score_chosen": 0.96267, "score_rejected": 0.10669}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0070.jpg", "rejected": "p06/c0280.jpg", "score_chosen": 0.95791, "score_rejected": 0.10669}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0004.jpg", "rejected": "p06/c0437.jpg", "score_chosen": 0.95257, "score_rejected": 0.16452}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0077.jpg", "rejected": "p06/c0236.jpg", "score_chosen": 0.9466, "score_rejected": 0.16452}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0057.jpg", "rejected": "p06/c0253.jpg", "score_chosen": 0.9149, "score_rejected": 0.20181}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0400.jpg", "rejected": "p06/c0045.jpg", "score_chosen": 0.9149, "score_rejected": 0.24508}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0402.jpg", "rejected": "p06/c0178.jpg", "score_chosen": 0.9149, "score_rejected": 0.26894}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0101.jpg", "rejected": "p06/c0265.jpg", "score_chosen": 0.90465, "score_rejected": 0.29422}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0233.jpg", "rejected": "p06/c0147.jpg", "score_chosen": 0.90465, "score_rejected": 0.29422}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0488.jpg", "rejected": "p06/c0423.jpg", "score_chosen": 0.90465, "score_rejected": 0.32082}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0168.jpg", "rejected": "p06/c0105.jpg", "score_chosen": 0.89331, "score_rejected": 0.32082}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0198.jpg", "rejected": "p06/c0055.jpg", "score_chosen": 0.89331, "score_rejected": 0.32082}
+{"prompt": "close-up portrait of a face with glossy skin, sunglasses pushed up", "chosen": "p06/c0222.jpg", "rejected": "p06/c0353.jpg", "score_chosen": 0.89331, "score_rejected": 0.34864}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0380.jpg", "rejected": "p07/c0177.jpg", "score_chosen": 0.99242, "score_rejected": 0.0017}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0187.jpg", "rejected": "p07/c0409.jpg", "score_chosen": 0.98409, "score_rejected": 0.00359}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0291.jpg", "rejected": "p07/c0281.jpg", "score_chosen": 0.98409, "score_rejected": 0.00407}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0216.jpg", "rejected": "p07/c0218.jpg", "score_chosen": 0.98201, "score_rejected": 0.00669}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0466.jpg", "rejected": "p07/c0150.jpg", "score_chosen": 0.97404, "score_rejected": 0.00669}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0265.jpg", "rejected": "p07/c0348.jpg", "score_chosen": 0.97069, "score_rejected": 0.00758}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0411.jpg", "rejected": "p07/c0236.jpg", "score_chosen": 0.97069, "score_rejected": 0.00758}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0000.jpg", "rejected": "p07/c0322.jpg", "score_chosen": 0.96267, "score_rejected": 0.00971}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0081.jpg", "rejected": "p07/c0279.jpg", "score_chosen": 0.96267, "score_rejected": 0.01099}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0087.jpg", "rejected": "p07/c0211.jpg", "score_chosen": 0.96267, "score_rejected": 0.01243}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0454.jpg", "rejected": "p07/c0038.jpg", "score_chosen": 0.95791, "score_rejected": 0.01591}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0132.jpg", "rejected": "p07/c0395.jpg", "score_chosen": 0.95257, "score_rejected": 0.02596}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0139.jpg", "rejected": "p07/c0144.jpg", "score_chosen": 0.9466, "score_rejected": 0.02931}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0263.jpg", "rejected": "p07/c0099.jpg", "score_chosen": 0.93991, "score_rejected": 0.02931}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0030.jpg", "rejected": "p07/c0001.jpg", "score_chosen": 0.93245, "score_rejected": 0.02931}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0167.jpg", "rejected": "p07/c0475.jpg", "score_chosen": 0.93245, "score_rejected": 0.03733}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0295.jpg", "rejected": "p07/c0312.jpg", "score_chosen": 0.92414, "score_rejected": 0.03733}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0403.jpg", "rejected": "p07/c0130.jpg", "score_chosen": 0.92414, "score_rejected": 0.04209}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0440.jpg", "rejected": "p07/c0426.jpg", "score_chosen": 0.92414, "score_rejected": 0.0534}
+{"prompt": "portrait of a model with slicked-back hair holding a small cosmetic product", "chosen": "p07/c0124.jpg", "rejected": "p07/c0250.jpg", "score_chosen": 0.9149, "score_rejected": 0.0534}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0000.jpg", "rejected": "p08/c0052.jpg", "score_chosen": 0.73106, "score_rejected": 0.00034}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0037.jpg", "rejected": "p08/c0051.jpg", "score_chosen": 0.59267, "score_rejected": 0.00133}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0048.jpg", "rejected": "p08/c0042.jpg", "score_chosen": 0.56218, "score_rejected": 0.00218}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0013.jpg", "rejected": "p08/c0033.jpg", "score_chosen": 0.43782, "score_rejected": 0.00218}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0016.jpg", "rejected": "p08/c0015.jpg", "score_chosen": 0.43782, "score_rejected": 0.00461}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0019.jpg", "rejected": "p08/c0023.jpg", "score_chosen": 0.43782, "score_rejected": 0.00522}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0020.jpg", "rejected": "p08/c0008.jpg", "score_chosen": 0.43782, "score_rejected": 0.02033}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0058.jpg", "rejected": "p08/c0063.jpg", "score_chosen": 0.43782, "score_rejected": 0.02596}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0018.jpg", "rejected": "p08/c0046.jpg", "score_chosen": 0.40733, "score_rejected": 0.06755}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0040.jpg", "rejected": "p08/c0010.jpg", "score_chosen": 0.40733, "score_rejected": 0.06755}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0054.jpg", "rejected": "p08/c0041.jpg", "score_chosen": 0.40733, "score_rejected": 0.1192}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0009.jpg", "rejected": "p08/c0035.jpg", "score_chosen": 0.37754, "score_rejected": 0.1192}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0012.jpg", "rejected": "p08/c0039.jpg", "score_chosen": 0.37754, "score_rejected": 0.14805}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0029.jpg", "rejected": "p08/c0036.jpg", "score_chosen": 0.37754, "score_rejected": 0.14805}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0045.jpg", "rejected": "p08/c0006.jpg", "score_chosen": 0.37754, "score_rejected": 0.14805}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0047.jpg", "rejected": "p08/c0004.jpg", "score_chosen": 0.37754, "score_rejected": 0.14805}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0007.jpg", "rejected": "p08/c0055.jpg", "score_chosen": 0.34864, "score_rejected": 0.16452}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0025.jpg", "rejected": "p08/c0049.jpg", "score_chosen": 0.34864, "score_rejected": 0.16452}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0028.jpg", "rejected": "p08/c0024.jpg", "score_chosen": 0.34864, "score_rejected": 0.16452}
+{"prompt": "flat lay of skincare products on a linen cloth", "chosen": "p08/c0060.jpg", "rejected": "p08/c0003.jpg", "score_chosen": 0.34864, "score_rejected": 0.16452}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0035.jpg", "rejected": "p09/c0062.jpg", "score_chosen": 0.98757, "score_rejected": 0.01406}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0043.jpg", "rejected": "p09/c0046.jpg", "score_chosen": 0.75492, "score_rejected": 0.02033}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0026.jpg", "rejected": "p09/c0006.jpg", "score_chosen": 0.70578, "score_rejected": 0.02033}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0052.jpg", "rejected": "p09/c0042.jpg", "score_chosen": 0.65136, "score_rejected": 0.02298}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0041.jpg", "rejected": "p09/c0019.jpg", "score_chosen": 0.59267, "score_rejected": 0.02298}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0017.jpg", "rejected": "p09/c0060.jpg", "score_chosen": 0.56218, "score_rejected": 0.03733}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0018.jpg", "rejected": "p09/c0034.jpg", "score_chosen": 0.56218, "score_rejected": 0.03733}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0038.jpg", "rejected": "p09/c0004.jpg", "score_chosen": 0.56218, "score_rejected": 0.04209}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0040.jpg", "rejected": "p09/c0053.jpg", "score_chosen": 0.56218, "score_rejected": 0.04743}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0056.jpg", "rejected": "p09/c0009.jpg", "score_chosen": 0.56218, "score_rejected": 0.04743}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0011.jpg", "rejected": "p09/c0001.jpg", "score_chosen": 0.53121, "score_rejected": 0.04743}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0037.jpg", "rejected": "p09/c0039.jpg", "score_chosen": 0.53121, "score_rejected": 0.06755}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0021.jpg", "rejected": "p09/c0030.jpg", "score_chosen": 0.5, "score_rejected": 0.06755}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0008.jpg", "rejected": "p09/c0055.jpg", "score_chosen": 0.46879, "score_rejected": 0.07586}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0049.jpg", "rejected": "p09/c0054.jpg", "score_chosen": 0.46879, "score_rejected": 0.07586}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0005.jpg", "rejected": "p09/c0020.jpg", "score_chosen": 0.43782, "score_rejected": 0.07586}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0012.jpg", "rejected": "p09/c0032.jpg", "score_chosen": 0.40733, "score_rejected": 0.0851}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0022.jpg", "rejected": "p09/c0013.jpg", "score_chosen": 0.40733, "score_rejected": 0.0851}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0033.jpg", "rejected": "p09/c0002.jpg", "score_chosen": 0.40733, "score_rejected": 0.09535}
+{"prompt": "flat lay of makeup products beside a hand mirror on a marble surface", "chosen": "p09/c0048.jpg", "rejected": "p09/c0059.jpg", "score_chosen": 0.40733, "score_rejected": 0.10669}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0039.jpg", "rejected": "p10/c0024.jpg", "score_chosen": 0.93991, "score_rejected": 0.20181}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0011.jpg", "rejected": "p10/c0044.jpg", "score_chosen": 0.92414, "score_rejected": 0.29422}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0031.jpg", "rejected": "p10/c0033.jpg", "score_chosen": 0.89331, "score_rejected": 0.32082}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0043.jpg", "rejected": "p10/c0038.jpg", "score_chosen": 0.89331, "score_rejected": 0.43782}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0026.jpg", "rejected": "p10/c0009.jpg", "score_chosen": 0.83548, "score_rejected": 0.46879}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0030.jpg", "rejected": "p10/c0050.jpg", "score_chosen": 0.83548, "score_rejected": 0.5}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0052.jpg", "rejected": "p10/c0048.jpg", "score_chosen": 0.81757, "score_rejected": 0.5}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0007.jpg", "rejected": "p10/c0040.jpg", "score_chosen": 0.79819, "score_rejected": 0.5}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0045.jpg", "rejected": "p10/c0017.jpg", "score_chosen": 0.79819, "score_rejected": 0.5}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0054.jpg", "rejected": "p10/c0006.jpg", "score_chosen": 0.79819, "score_rejected": 0.5}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0020.jpg", "rejected": "p10/c0047.jpg", "score_chosen": 0.7773, "score_rejected": 0.53121}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0025.jpg", "rejected": "p10/c0042.jpg", "score_chosen": 0.7773, "score_rejected": 0.53121}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0049.jpg", "rejected": "p10/c0029.jpg", "score_chosen": 0.7773, "score_rejected": 0.53121}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0056.jpg", "rejected": "p10/c0023.jpg", "score_chosen": 0.7773, "score_rejected": 0.53121}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0059.jpg", "rejected": "p10/c0010.jpg", "score_chosen": 0.7773, "score_rejected": 0.56218}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0000.jpg", "rejected": "p10/c0008.jpg", "score_chosen": 0.75492, "score_rejected": 0.56218}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0002.jpg", "rejected": "p10/c0004.jpg", "score_chosen": 0.75492, "score_rejected": 0.56218}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0015.jpg", "rejected": "p10/c0034.jpg", "score_chosen": 0.75492, "score_rejected": 0.59267}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0019.jpg", "rejected": "p10/c0016.jpg", "score_chosen": 0.75492, "score_rejected": 0.59267}
+{"prompt": "lifestyle photo, woman applying face cream in a bathroom mirror", "chosen": "p10/c0021.jpg", "rejected": "p10/c0012.jpg", "score_chosen": 0.75492, "score_rejected": 0.59267}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0003.jpg", "rejected": "p11/c0013.jpg", "score_chosen": 0.75492, "score_rejected": 0.00359}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0023.jpg", "rejected": "p11/c0010.jpg", "score_chosen": 0.70578, "score_rejected": 0.02033}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0006.jpg", "rejected": "p11/c0058.jpg", "score_chosen": 0.62246, "score_rejected": 0.02931}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0044.jpg", "rejected": "p11/c0024.jpg", "score_chosen": 0.62246, "score_rejected": 0.03309}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0007.jpg", "rejected": "p11/c0011.jpg", "score_chosen": 0.59267, "score_rejected": 0.03309}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0060.jpg", "rejected": "p11/c0033.jpg", "score_chosen": 0.59267, "score_rejected": 0.04209}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0019.jpg", "rejected": "p11/c0062.jpg", "score_chosen": 0.56218, "score_rejected": 0.04743}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0026.jpg", "rejected": "p11/c0042.jpg", "score_chosen": 0.5, "score_rejected": 0.06755}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0031.jpg", "rejected": "p11/c0022.jpg", "score_chosen": 0.5, "score_rejected": 0.07586}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0041.jpg", "rejected": "p11/c0037.jpg", "score_chosen": 0.5, "score_rejected": 0.0851}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0000.jpg", "rejected": "p11/c0040.jpg", "score_chosen": 0.43782, "score_rejected": 0.09535}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0015.jpg", "rejected": "p11/c0029.jpg", "score_chosen": 0.43782, "score_rejected": 0.09535}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0036.jpg", "rejected": "p11/c0048.jpg", "score_chosen": 0.43782, "score_rejected": 0.1192}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0051.jpg", "rejected": "p11/c0002.jpg", "score_chosen": 0.43782, "score_rejected": 0.1192}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0021.jpg", "rejected": "p11/c0032.jpg", "score_chosen": 0.40733, "score_rejected": 0.13296}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0004.jpg", "rejected": "p11/c0030.jpg", "score_chosen": 0.34864, "score_rejected": 0.13296}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0005.jpg", "rejected": "p11/c0057.jpg", "score_chosen": 0.34864, "score_rejected": 0.14805}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0009.jpg", "rejected": "p11/c0043.jpg", "score_chosen": 0.34864, "score_rejected": 0.14805}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0014.jpg", "rejected": "p11/c0039.jpg", "score_chosen": 0.34864, "score_rejected": 0.14805}
+{"prompt": "lifestyle photo, cosmetics spilling out of a small handbag on a bed", "chosen": "p11/c0020.jpg", "rejected": "p11/c0047.jpg", "score_chosen": 0.34864, "score_rejected": 0.16452}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0023.jpg", "rejected": "p12/c0026.jpg", "score_chosen": 0.62246, "score_rejected": 0.00407}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0044.jpg", "rejected": "p12/c0002.jpg", "score_chosen": 0.59267, "score_rejected": 0.01099}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0063.jpg", "rejected": "p12/c0011.jpg", "score_chosen": 0.46879, "score_rejected": 0.01799}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0005.jpg", "rejected": "p12/c0024.jpg", "score_chosen": 0.43782, "score_rejected": 0.02033}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0059.jpg", "rejected": "p12/c0016.jpg", "score_chosen": 0.37754, "score_rejected": 0.02931}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0014.jpg", "rejected": "p12/c0015.jpg", "score_chosen": 0.26894, "score_rejected": 0.02931}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0036.jpg", "rejected": "p12/c0010.jpg", "score_chosen": 0.26894, "score_rejected": 0.03309}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0019.jpg", "rejected": "p12/c0004.jpg", "score_chosen": 0.2227, "score_rejected": 0.03309}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0048.jpg", "rejected": "p12/c0042.jpg", "score_chosen": 0.2227, "score_rejected": 0.03733}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0018.jpg", "rejected": "p12/c0031.jpg", "score_chosen": 0.20181, "score_rejected": 0.03733}
+{"prompt": "lifestyle photo, friends getting ready together at a vanity table", "chosen": "p12/c0034.jpg", "rejected": "p12/c0052.jpg", "score_chosen": 0.20181, "score_rejected": 0.04209}
+{"prompt": "lifestyle photo, a woman at golden hour holding a drink, candid", "chosen": "p13/c0007.jpg", "rejected": "p13/c0035.jpg", "score_chosen": 0.32082, "score_rejected": 0.03733}
+{"prompt": "lifestyle photo, a woman at golden hour holding a drink, candid", "chosen": "p13/c0038.jpg", "rejected": "p13/c0044.jpg", "score_chosen": 0.26894, "score_rejected": 0.04743}
+{"prompt": "lifestyle photo, a woman at golden hour holding a drink, candid", "chosen": "p13/c0021.jpg", "rejected": "p13/c0018.jpg", "score_chosen": 0.24508, "score_rejected": 0.06755}
+{"prompt": "lifestyle photo, a woman at golden hour holding a drink, candid", "chosen": "p13/c0058.jpg", "rejected": "p13/c0014.jpg", "score_chosen": 0.24508, "score_rejected": 0.07586}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0058.jpg", "rejected": "p14/c0050.jpg", "score_chosen": 0.99331, "score_rejected": 0.03309}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0030.jpg", "rejected": "p14/c0021.jpg", "score_chosen": 0.99242, "score_rejected": 0.13296}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0005.jpg", "rejected": "p14/c0060.jpg", "score_chosen": 0.98757, "score_rejected": 0.14805}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0063.jpg", "rejected": "p14/c0049.jpg", "score_chosen": 0.98757, "score_rejected": 0.18243}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0054.jpg", "rejected": "p14/c0008.jpg", "score_chosen": 0.98201, "score_rejected": 0.18243}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0003.jpg", "rejected": "p14/c0006.jpg", "score_chosen": 0.97967, "score_rejected": 0.2227}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0051.jpg", "rejected": "p14/c0052.jpg", "score_chosen": 0.97967, "score_rejected": 0.24508}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0020.jpg", "rejected": "p14/c0035.jpg", "score_chosen": 0.97404, "score_rejected": 0.24508}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0045.jpg", "rejected": "p14/c0032.jpg", "score_chosen": 0.97404, "score_rejected": 0.34864}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0004.jpg", "rejected": "p14/c0011.jpg", "score_chosen": 0.97069, "score_rejected": 0.34864}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0015.jpg", "rejected": "p14/c0025.jpg", "score_chosen": 0.96691, "score_rejected": 0.40733}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0036.jpg", "rejected": "p14/c0048.jpg", "score_chosen": 0.96691, "score_rejected": 0.46879}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0046.jpg", "rejected": "p14/c0037.jpg", "score_chosen": 0.96691, "score_rejected": 0.46879}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0061.jpg", "rejected": "p14/c0028.jpg", "score_chosen": 0.96691, "score_rejected": 0.5}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0001.jpg", "rejected": "p14/c0012.jpg", "score_chosen": 0.96267, "score_rejected": 0.5}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0016.jpg", "rejected": "p14/c0002.jpg", "score_chosen": 0.96267, "score_rejected": 0.5}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0043.jpg", "rejected": "p14/c0056.jpg", "score_chosen": 0.95791, "score_rejected": 0.53121}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0055.jpg", "rejected": "p14/c0044.jpg", "score_chosen": 0.95791, "score_rejected": 0.53121}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0017.jpg", "rejected": "p14/c0026.jpg", "score_chosen": 0.95257, "score_rejected": 0.53121}
+{"prompt": "still life of a phone case with a lip balm attached, studio light", "chosen": "p14/c0010.jpg", "rejected": "p14/c0024.jpg", "score_chosen": 0.93991, "score_rejected": 0.56218}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0022.jpg", "rejected": "p15/c0045.jpg", "score_chosen": 0.92414, "score_rejected": 9e-05}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0054.jpg", "rejected": "p15/c0044.jpg", "score_chosen": 0.7773, "score_rejected": 0.00023}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0009.jpg", "rejected": "p15/c0058.jpg", "score_chosen": 0.40733, "score_rejected": 0.00091}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0014.jpg", "rejected": "p15/c0026.jpg", "score_chosen": 0.32082, "score_rejected": 0.00091}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0059.jpg", "rejected": "p15/c0028.jpg", "score_chosen": 0.32082, "score_rejected": 0.00103}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0008.jpg", "rejected": "p15/c0046.jpg", "score_chosen": 0.2227, "score_rejected": 0.00133}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0015.jpg", "rejected": "p15/c0011.jpg", "score_chosen": 0.2227, "score_rejected": 0.00133}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0056.jpg", "rejected": "p15/c0048.jpg", "score_chosen": 0.18243, "score_rejected": 0.0015}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0031.jpg", "rejected": "p15/c0010.jpg", "score_chosen": 0.16452, "score_rejected": 0.00247}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0057.jpg", "rejected": "p15/c0033.jpg", "score_chosen": 0.16452, "score_rejected": 0.0028}
+{"prompt": "still life of skincare products in a refrigerator door shelf", "chosen": "p15/c0060.jpg", "rejected": "p15/c0007.jpg", "score_chosen": 0.16452, "score_rejected": 0.00317}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0030.jpg", "rejected": "p16/c0035.jpg", "score_chosen": 0.86704, "score_rejected": 0.00091}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0029.jpg", "rejected": "p16/c0046.jpg", "score_chosen": 0.79819, "score_rejected": 0.00193}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0043.jpg", "rejected": "p16/c0041.jpg", "score_chosen": 0.7773, "score_rejected": 0.0028}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0015.jpg", "rejected": "p16/c0013.jpg", "score_chosen": 0.75492, "score_rejected": 0.0028}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0000.jpg", "rejected": "p16/c0049.jpg", "score_chosen": 0.70578, "score_rejected": 0.00359}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0023.jpg", "rejected": "p16/c0017.jpg", "score_chosen": 0.70578, "score_rejected": 0.00359}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0031.jpg", "rejected": "p16/c0047.jpg", "score_chosen": 0.70578, "score_rejected": 0.00461}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0020.jpg", "rejected": "p16/c0014.jpg", "score_chosen": 0.65136, "score_rejected": 0.00522}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0055.jpg", "rejected": "p16/c0051.jpg", "score_chosen": 0.62246, "score_rejected": 0.00669}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0002.jpg", "rejected": "p16/c0044.jpg", "score_chosen": 0.59267, "score_rejected": 0.00669}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0004.jpg", "rejected": "p16/c0057.jpg", "score_chosen": 0.56218, "score_rejected": 0.00758}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0005.jpg", "rejected": "p16/c0039.jpg", "score_chosen": 0.56218, "score_rejected": 0.00758}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0042.jpg", "rejected": "p16/c0056.jpg", "score_chosen": 0.53121, "score_rejected": 0.00858}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0025.jpg", "rejected": "p16/c0032.jpg", "score_chosen": 0.5, "score_rejected": 0.00858}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0050.jpg", "rejected": "p16/c0007.jpg", "score_chosen": 0.5, "score_rejected": 0.00971}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0038.jpg", "rejected": "p16/c0010.jpg", "score_chosen": 0.46879, "score_rejected": 0.01099}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0053.jpg", "rejected": "p16/c0009.jpg", "score_chosen": 0.43782, "score_rejected": 0.01243}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0040.jpg", "rejected": "p16/c0011.jpg", "score_chosen": 0.34864, "score_rejected": 0.01406}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0019.jpg", "rejected": "p16/c0061.jpg", "score_chosen": 0.32082, "score_rejected": 0.01799}
+{"prompt": "a plain colored background with elegant small text, minimal composition", "chosen": "p16/c0048.jpg", "rejected": "p16/c0003.jpg", "score_chosen": 0.29422, "score_rejected": 0.01799}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0049.jpg", "rejected": "p17/c0034.jpg", "score_chosen": 0.8808, "score_rejected": 0.06009}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0029.jpg", "rejected": "p17/c0026.jpg", "score_chosen": 0.83548, "score_rejected": 0.09535}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0018.jpg", "rejected": "p17/c0057.jpg", "score_chosen": 0.7773, "score_rejected": 0.10669}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0051.jpg", "rejected": "p17/c0031.jpg", "score_chosen": 0.7773, "score_rejected": 0.10669}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0056.jpg", "rejected": "p17/c0020.jpg", "score_chosen": 0.7773, "score_rejected": 0.10669}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0008.jpg", "rejected": "p17/c0043.jpg", "score_chosen": 0.75492, "score_rejected": 0.1192}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0041.jpg", "rejected": "p17/c0037.jpg", "score_chosen": 0.65136, "score_rejected": 0.1192}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0045.jpg", "rejected": "p17/c0059.jpg", "score_chosen": 0.65136, "score_rejected": 0.13296}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0061.jpg", "rejected": "p17/c0025.jpg", "score_chosen": 0.65136, "score_rejected": 0.13296}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0002.jpg", "rejected": "p17/c0052.jpg", "score_chosen": 0.53121, "score_rejected": 0.14805}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0013.jpg", "rejected": "p17/c0040.jpg", "score_chosen": 0.5, "score_rejected": 0.14805}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0036.jpg", "rejected": "p17/c0030.jpg", "score_chosen": 0.5, "score_rejected": 0.14805}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0055.jpg", "rejected": "p17/c0005.jpg", "score_chosen": 0.5, "score_rejected": 0.16452}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0039.jpg", "rejected": "p17/c0047.jpg", "score_chosen": 0.46879, "score_rejected": 0.18243}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0003.jpg", "rejected": "p17/c0044.jpg", "score_chosen": 0.43782, "score_rejected": 0.18243}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0007.jpg", "rejected": "p17/c0033.jpg", "score_chosen": 0.43782, "score_rejected": 0.18243}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0012.jpg", "rejected": "p17/c0023.jpg", "score_chosen": 0.43782, "score_rejected": 0.18243}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0024.jpg", "rejected": "p17/c0062.jpg", "score_chosen": 0.40733, "score_rejected": 0.20181}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0001.jpg", "rejected": "p17/c0050.jpg", "score_chosen": 0.37754, "score_rejected": 0.20181}
+{"prompt": "minimal composition, single product centered on seamless pastel backdrop", "chosen": "p17/c0009.jpg", "rejected": "p17/c0011.jpg", "score_chosen": 0.37754, "score_rejected": 0.20181}
+{"prompt": "beauty campaign image, model resting chin on hand, bare shoulder", "chosen": "p18/c0059.jpg", "rejected": "p18/c0020.jpg", "score_chosen": 0.40733, "score_rejected": 0.07586}
+{"prompt": "beauty campaign image, model resting chin on hand, bare shoulder", "chosen": "p18/c0016.jpg", "rejected": "p18/c0046.jpg", "score_chosen": 0.34864, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model resting chin on hand, bare shoulder", "chosen": "p18/c0026.jpg", "rejected": "p18/c0034.jpg", "score_chosen": 0.29422, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model resting chin on hand, bare shoulder", "chosen": "p18/c0058.jpg", "rejected": "p18/c0029.jpg", "score_chosen": 0.29422, "score_rejected": 0.13296}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0045.jpg", "rejected": "p19/c0028.jpg", "score_chosen": 0.85195, "score_rejected": 0.00012}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0060.jpg", "rejected": "p19/c0011.jpg", "score_chosen": 0.53121, "score_rejected": 0.0002}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0020.jpg", "rejected": "p19/c0052.jpg", "score_chosen": 0.29422, "score_rejected": 0.00023}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0040.jpg", "rejected": "p19/c0048.jpg", "score_chosen": 0.26894, "score_rejected": 0.00023}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0013.jpg", "rejected": "p19/c0044.jpg", "score_chosen": 0.24508, "score_rejected": 0.00023}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0053.jpg", "rejected": "p19/c0037.jpg", "score_chosen": 0.2227, "score_rejected": 0.00023}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0061.jpg", "rejected": "p19/c0030.jpg", "score_chosen": 0.2227, "score_rejected": 0.00023}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0005.jpg", "rejected": "p19/c0002.jpg", "score_chosen": 0.20181, "score_rejected": 0.00026}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0050.jpg", "rejected": "p19/c0049.jpg", "score_chosen": 0.20181, "score_rejected": 0.0003}
+{"prompt": "beauty campaign image, two products side by side with soft shadows", "chosen": "p19/c0042.jpg", "rejected": "p19/c0006.jpg", "score_chosen": 0.18243, "score_rejected": 0.00034}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0001.jpg", "rejected": "p20/c0021.jpg", "score_chosen": 0.8808, "score_rejected": 0.29422}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0004.jpg", "rejected": "p20/c0052.jpg", "score_chosen": 0.85195, "score_rejected": 0.37754}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0040.jpg", "rejected": "p20/c0060.jpg", "score_chosen": 0.83548, "score_rejected": 0.40733}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0046.jpg", "rejected": "p20/c0026.jpg", "score_chosen": 0.83548, "score_rejected": 0.40733}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0005.jpg", "rejected": "p20/c0041.jpg", "score_chosen": 0.81757, "score_rejected": 0.53121}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0012.jpg", "rejected": "p20/c0063.jpg", "score_chosen": 0.81757, "score_rejected": 0.56218}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0016.jpg", "rejected": "p20/c0062.jpg", "score_chosen": 0.81757, "score_rejected": 0.56218}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0020.jpg", "rejected": "p20/c0049.jpg", "score_chosen": 0.81757, "score_rejected": 0.56218}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0024.jpg", "rejected": "p20/c0000.jpg", "score_chosen": 0.79819, "score_rejected": 0.56218}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0028.jpg", "rejected": "p20/c0030.jpg", "score_chosen": 0.79819, "score_rejected": 0.59267}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0051.jpg", "rejected": "p20/c0015.jpg", "score_chosen": 0.79819, "score_rejected": 0.59267}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0017.jpg", "rejected": "p20/c0014.jpg", "score_chosen": 0.7773, "score_rejected": 0.59267}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0023.jpg", "rejected": "p20/c0056.jpg", "score_chosen": 0.7773, "score_rejected": 0.62246}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0029.jpg", "rejected": "p20/c0022.jpg", "score_chosen": 0.7773, "score_rejected": 0.62246}
+{"prompt": "macro product photograph of a cream compact half open, soft directional light", "chosen": "p20/c0031.jpg", "rejected": "p20/c0009.jpg", "score_chosen": 0.7773, "score_rejected": 0.62246}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0022.jpg", "rejected": "p21/c0045.jpg", "score_chosen": 0.99883, "score_rejected": 0.0002}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0060.jpg", "rejected": "p21/c0053.jpg", "score_chosen": 0.73106, "score_rejected": 0.00023}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0003.jpg", "rejected": "p21/c0010.jpg", "score_chosen": 0.70578, "score_rejected": 0.0003}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0041.jpg", "rejected": "p21/c0057.jpg", "score_chosen": 0.62246, "score_rejected": 0.00071}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0055.jpg", "rejected": "p21/c0059.jpg", "score_chosen": 0.59267, "score_rejected": 0.00133}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0017.jpg", "rejected": "p21/c0012.jpg", "score_chosen": 0.53121, "score_rejected": 0.00133}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0027.jpg", "rejected": "p21/c0062.jpg", "score_chosen": 0.53121, "score_rejected": 0.0017}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0036.jpg", "rejected": "p21/c0033.jpg", "score_chosen": 0.53121, "score_rejected": 0.00218}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0015.jpg", "rejected": "p21/c0054.jpg", "score_chosen": 0.5, "score_rejected": 0.02931}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0026.jpg", "rejected": "p21/c0032.jpg", "score_chosen": 0.5, "score_rejected": 0.04743}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0029.jpg", "rejected": "p21/c0023.jpg", "score_chosen": 0.5, "score_rejected": 0.0851}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0031.jpg", "rejected": "p21/c0001.jpg", "score_chosen": 0.46879, "score_rejected": 0.10669}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0011.jpg", "rejected": "p21/c0040.jpg", "score_chosen": 0.43782, "score_rejected": 0.1192}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0030.jpg", "rejected": "p21/c0009.jpg", "score_chosen": 0.43782, "score_rejected": 0.13296}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0037.jpg", "rejected": "p21/c0038.jpg", "score_chosen": 0.43782, "score_rejected": 0.14805}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0043.jpg", "rejected": "p21/c0014.jpg", "score_chosen": 0.43782, "score_rejected": 0.14805}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0050.jpg", "rejected": "p21/c0004.jpg", "score_chosen": 0.43782, "score_rejected": 0.14805}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0008.jpg", "rejected": "p21/c0052.jpg", "score_chosen": 0.40733, "score_rejected": 0.16452}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0020.jpg", "rejected": "p21/c0058.jpg", "score_chosen": 0.37754, "score_rejected": 0.18243}
+{"prompt": "product photograph of a serum dropper bottle on a mirrored surface", "chosen": "p21/c0035.jpg", "rejected": "p21/c0039.jpg", "score_chosen": 0.37754, "score_rejected": 0.18243}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0052.jpg", "rejected": "p22/c0011.jpg", "score_chosen": 0.98201, "score_rejected": 0.0015}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0043.jpg", "rejected": "p22/c0022.jpg", "score_chosen": 0.97967, "score_rejected": 0.0017}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0055.jpg", "rejected": "p22/c0023.jpg", "score_chosen": 0.97967, "score_rejected": 0.00407}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0013.jpg", "rejected": "p22/c0009.jpg", "score_chosen": 0.95257, "score_rejected": 0.02033}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0037.jpg", "rejected": "p22/c0008.jpg", "score_chosen": 0.90465, "score_rejected": 0.02931}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0059.jpg", "rejected": "p22/c0002.jpg", "score_chosen": 0.8808, "score_rejected": 0.03733}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0026.jpg", "rejected": "p22/c0024.jpg", "score_chosen": 0.86704, "score_rejected": 0.07586}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0042.jpg", "rejected": "p22/c0062.jpg", "score_chosen": 0.86704, "score_rejected": 0.10669}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0057.jpg", "rejected": "p22/c0001.jpg", "score_chosen": 0.86704, "score_rejected": 0.10669}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0040.jpg", "rejected": "p22/c0003.jpg", "score_chosen": 0.81757, "score_rejected": 0.1192}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0032.jpg", "rejected": "p22/c0063.jpg", "score_chosen": 0.75492, "score_rejected": 0.14805}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0034.jpg", "rejected": "p22/c0018.jpg", "score_chosen": 0.73106, "score_rejected": 0.16452}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0025.jpg", "rejected": "p22/c0014.jpg", "score_chosen": 0.70578, "score_rejected": 0.16452}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0039.jpg", "rejected": "p22/c0006.jpg", "score_chosen": 0.70578, "score_rejected": 0.20181}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0029.jpg", "rejected": "p22/c0054.jpg", "score_chosen": 0.67918, "score_rejected": 0.2227}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0004.jpg", "rejected": "p22/c0019.jpg", "score_chosen": 0.65136, "score_rejected": 0.29422}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0050.jpg", "rejected": "p22/c0049.jpg", "score_chosen": 0.62246, "score_rejected": 0.32082}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0012.jpg", "rejected": "p22/c0030.jpg", "score_chosen": 0.56218, "score_rejected": 0.32082}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0036.jpg", "rejected": "p22/c0041.jpg", "score_chosen": 0.56218, "score_rejected": 0.34864}
+{"prompt": "product photograph of a lip tint tube lying on rumpled satin fabric", "chosen": "p22/c0053.jpg", "rejected": "p22/c0038.jpg", "score_chosen": 0.56218, "score_rejected": 0.34864}
+{"prompt": "portrait of a model mid-laugh with minimal makeup, golden hour light", "chosen": "p23/c0013.jpg", "rejected": "p23/c0033.jpg", "score_chosen": 0.34864, "score_rejected": 0.02931}
+{"prompt": "portrait of a model mid-laugh with minimal makeup, golden hour light", "chosen": "p23/c0027.jpg", "rejected": "p23/c0040.jpg", "score_chosen": 0.32082, "score_rejected": 0.03309}
+{"prompt": "portrait of a model mid-laugh with minimal makeup, golden hour light", "chosen": "p23/c0037.jpg", "rejected": "p23/c0002.jpg", "score_chosen": 0.29422, "score_rejected": 0.03309}
+{"prompt": "portrait of a model mid-laugh with minimal makeup, golden hour light", "chosen": "p23/c0063.jpg", "rejected": "p23/c0061.jpg", "score_chosen": 0.26894, "score_rejected": 0.04743}
+{"prompt": "portrait of a model mid-laugh with minimal makeup, golden hour light", "chosen": "p23/c0055.jpg", "rejected": "p23/c0059.jpg", "score_chosen": 0.24508, "score_rejected": 0.0534}
+{"prompt": "portrait of a model mid-laugh with minimal makeup, golden hour light", "chosen": "p23/c0043.jpg", "rejected": "p23/c0052.jpg", "score_chosen": 0.2227, "score_rejected": 0.0534}
+{"prompt": "portrait of a model touching her cheek, eyes closed, studio backdrop", "chosen": "p24/c0058.jpg", "rejected": "p24/c0023.jpg", "score_chosen": 0.37754, "score_rejected": 0.04743}
+{"prompt": "portrait of a model touching her cheek, eyes closed, studio backdrop", "chosen": "p24/c0015.jpg", "rejected": "p24/c0029.jpg", "score_chosen": 0.32082, "score_rejected": 0.06755}
+{"prompt": "portrait of a model touching her cheek, eyes closed, studio backdrop", "chosen": "p24/c0026.jpg", "rejected": "p24/c0052.jpg", "score_chosen": 0.32082, "score_rejected": 0.07586}
+{"prompt": "portrait of a model touching her cheek, eyes closed, studio backdrop", "chosen": "p24/c0008.jpg", "rejected": "p24/c0032.jpg", "score_chosen": 0.29422, "score_rejected": 0.07586}
+{"prompt": "portrait of a model touching her cheek, eyes closed, studio backdrop", "chosen": "p24/c0009.jpg", "rejected": "p24/c0020.jpg", "score_chosen": 0.29422, "score_rejected": 0.07586}
+{"prompt": "portrait of a model touching her cheek, eyes closed, studio backdrop", "chosen": "p24/c0017.jpg", "rejected": "p24/c0041.jpg", "score_chosen": 0.29422, "score_rejected": 0.09535}
+{"prompt": "portrait of a model touching her cheek, eyes closed, studio backdrop", "chosen": "p24/c0031.jpg", "rejected": "p24/c0007.jpg", "score_chosen": 0.29422, "score_rejected": 0.10669}
+{"prompt": "portrait of a model touching her cheek, eyes closed, studio backdrop", "chosen": "p24/c0034.jpg", "rejected": "p24/c0004.jpg", "score_chosen": 0.29422, "score_rejected": 0.10669}
+{"prompt": "close-up of lips with glossy balm, neutral tones", "chosen": "p25/c0002.jpg", "rejected": "p25/c0055.jpg", "score_chosen": 0.93245, "score_rejected": 0.62246}
+{"prompt": "close-up of lips with glossy balm, neutral tones", "chosen": "p25/c0004.jpg", "rejected": "p25/c0019.jpg", "score_chosen": 0.93245, "score_rejected": 0.70578}
+{"prompt": "close-up of lips with glossy balm, neutral tones", "chosen": "p25/c0025.jpg", "rejected": "p25/c0010.jpg", "score_chosen": 0.93245, "score_rejected": 0.70578}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0005.jpg", "rejected": "p26/c0046.jpg", "score_chosen": 0.95257, "score_rejected": 0.00133}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0036.jpg", "rejected": "p26/c0016.jpg", "score_chosen": 0.73106, "score_rejected": 0.0028}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0034.jpg", "rejected": "p26/c0009.jpg", "score_chosen": 0.53121, "score_rejected": 0.00317}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0002.jpg", "rejected": "p26/c0018.jpg", "score_chosen": 0.5, "score_rejected": 0.00669}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0023.jpg", "rejected": "p26/c0003.jpg", "score_chosen": 0.46879, "score_rejected": 0.00858}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0053.jpg", "rejected": "p26/c0010.jpg", "score_chosen": 0.46879, "score_rejected": 0.01243}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0004.jpg", "rejected": "p26/c0057.jpg", "score_chosen": 0.43782, "score_rejected": 0.01591}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0006.jpg", "rejected": "p26/c0054.jpg", "score_chosen": 0.43782, "score_rejected": 0.01591}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0008.jpg", "rejected": "p26/c0012.jpg", "score_chosen": 0.43782, "score_rejected": 0.04209}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0019.jpg", "rejected": "p26/c0017.jpg", "score_chosen": 0.43782, "score_rejected": 0.06755}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0056.jpg", "rejected": "p26/c0045.jpg", "score_chosen": 0.43782, "score_rejected": 0.0851}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0021.jpg", "rejected": "p26/c0011.jpg", "score_chosen": 0.40733, "score_rejected": 0.18243}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0031.jpg", "rejected": "p26/c0051.jpg", "score_chosen": 0.40733, "score_rejected": 0.24508}
+{"prompt": "close-up of a hand holding a small skincare tube, short natural nails", "chosen": "p26/c0037.jpg", "rejected": "p26/c0000.jpg", "score_chosen": 0.40733, "score_rejected": 0.24508}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0045.jpg", "rejected": "p27/c0023.jpg", "score_chosen": 0.9149, "score_rejected": 0.00407}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0000.jpg", "rejected": "p27/c0027.jpg", "score_chosen": 0.62246, "score_rejected": 0.01243}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0014.jpg", "rejected": "p27/c0032.jpg", "score_chosen": 0.59267, "score_rejected": 0.01406}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0019.jpg", "rejected": "p27/c0055.jpg", "score_chosen": 0.5, "score_rejected": 0.02596}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0008.jpg", "rejected": "p27/c0015.jpg", "score_chosen": 0.40733, "score_rejected": 0.02596}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0060.jpg", "rejected": "p27/c0063.jpg", "score_chosen": 0.40733, "score_rejected": 0.04743}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0018.jpg", "rejected": "p27/c0039.jpg", "score_chosen": 0.37754, "score_rejected": 0.0534}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0030.jpg", "rejected": "p27/c0012.jpg", "score_chosen": 0.34864, "score_rejected": 0.0534}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0013.jpg", "rejected": "p27/c0056.jpg", "score_chosen": 0.29422, "score_rejected": 0.06009}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0007.jpg", "rejected": "p27/c0042.jpg", "score_chosen": 0.26894, "score_rejected": 0.06009}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0024.jpg", "rejected": "p27/c0036.jpg", "score_chosen": 0.26894, "score_rejected": 0.06009}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0031.jpg", "rejected": "p27/c0025.jpg", "score_chosen": 0.26894, "score_rejected": 0.06009}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0054.jpg", "rejected": "p27/c0006.jpg", "score_chosen": 0.26894, "score_rejected": 0.06009}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0001.jpg", "rejected": "p27/c0046.jpg", "score_chosen": 0.24508, "score_rejected": 0.07586}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0009.jpg", "rejected": "p27/c0033.jpg", "score_chosen": 0.24508, "score_rejected": 0.07586}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0058.jpg", "rejected": "p27/c0005.jpg", "score_chosen": 0.24508, "score_rejected": 0.07586}
+{"prompt": "flat lay of a skincare routine arranged in a neat row on pale linen", "chosen": "p27/c0061.jpg", "rejected": "p27/c0002.jpg", "score_chosen": 0.24508, "score_rejected": 0.07586}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0058.jpg", "rejected": "p28/c0063.jpg", "score_chosen": 0.81757, "score_rejected": 0.02033}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0040.jpg", "rejected": "p28/c0031.jpg", "score_chosen": 0.7773, "score_rejected": 0.04743}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0059.jpg", "rejected": "p28/c0014.jpg", "score_chosen": 0.62246, "score_rejected": 0.04743}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0046.jpg", "rejected": "p28/c0043.jpg", "score_chosen": 0.56218, "score_rejected": 0.0534}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0038.jpg", "rejected": "p28/c0005.jpg", "score_chosen": 0.37754, "score_rejected": 0.0534}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0047.jpg", "rejected": "p28/c0015.jpg", "score_chosen": 0.34864, "score_rejected": 0.06009}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0029.jpg", "rejected": "p28/c0056.jpg", "score_chosen": 0.32082, "score_rejected": 0.06755}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0000.jpg", "rejected": "p28/c0033.jpg", "score_chosen": 0.29422, "score_rejected": 0.07586}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0060.jpg", "rejected": "p28/c0027.jpg", "score_chosen": 0.29422, "score_rejected": 0.07586}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0062.jpg", "rejected": "p28/c0020.jpg", "score_chosen": 0.29422, "score_rejected": 0.07586}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0023.jpg", "rejected": "p28/c0051.jpg", "score_chosen": 0.26894, "score_rejected": 0.0851}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0026.jpg", "rejected": "p28/c0025.jpg", "score_chosen": 0.26894, "score_rejected": 0.0851}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0037.jpg", "rejected": "p28/c0009.jpg", "score_chosen": 0.26894, "score_rejected": 0.0851}
+{"prompt": "flat lay of cosmetics spilling from a soft canvas pouch", "chosen": "p28/c0061.jpg", "rejected": "p28/c0057.jpg", "score_chosen": 0.26894, "score_rejected": 0.09535}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0011.jpg", "rejected": "p29/c0058.jpg", "score_chosen": 0.89331, "score_rejected": 0.10669}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0035.jpg", "rejected": "p29/c0052.jpg", "score_chosen": 0.8808, "score_rejected": 0.10669}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0020.jpg", "rejected": "p29/c0012.jpg", "score_chosen": 0.86704, "score_rejected": 0.10669}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0017.jpg", "rejected": "p29/c0027.jpg", "score_chosen": 0.83548, "score_rejected": 0.1192}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0006.jpg", "rejected": "p29/c0059.jpg", "score_chosen": 0.79819, "score_rejected": 0.16452}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0026.jpg", "rejected": "p29/c0029.jpg", "score_chosen": 0.79819, "score_rejected": 0.16452}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0050.jpg", "rejected": "p29/c0016.jpg", "score_chosen": 0.79819, "score_rejected": 0.16452}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0053.jpg", "rejected": "p29/c0001.jpg", "score_chosen": 0.79819, "score_rejected": 0.16452}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0062.jpg", "rejected": "p29/c0063.jpg", "score_chosen": 0.79819, "score_rejected": 0.18243}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0046.jpg", "rejected": "p29/c0057.jpg", "score_chosen": 0.7773, "score_rejected": 0.18243}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0049.jpg", "rejected": "p29/c0056.jpg", "score_chosen": 0.75492, "score_rejected": 0.18243}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0005.jpg", "rejected": "p29/c0025.jpg", "score_chosen": 0.73106, "score_rejected": 0.18243}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0045.jpg", "rejected": "p29/c0004.jpg", "score_chosen": 0.73106, "score_rejected": 0.18243}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0028.jpg", "rejected": "p29/c0044.jpg", "score_chosen": 0.70578, "score_rejected": 0.20181}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0043.jpg", "rejected": "p29/c0039.jpg", "score_chosen": 0.70578, "score_rejected": 0.20181}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0013.jpg", "rejected": "p29/c0031.jpg", "score_chosen": 0.67918, "score_rejected": 0.20181}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0021.jpg", "rejected": "p29/c0042.jpg", "score_chosen": 0.67918, "score_rejected": 0.24508}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0051.jpg", "rejected": "p29/c0008.jpg", "score_chosen": 0.67918, "score_rejected": 0.24508}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0019.jpg", "rejected": "p29/c0054.jpg", "score_chosen": 0.65136, "score_rejected": 0.26894}
+{"prompt": "lifestyle photo of a woman applying moisturizer at a bathroom mirror", "chosen": "p29/c0023.jpg", "rejected": "p29/c0002.jpg", "score_chosen": 0.65136, "score_rejected": 0.26894}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0003.jpg", "rejected": "p30/c0059.jpg", "score_chosen": 0.9149, "score_rejected": 0.00026}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0030.jpg", "rejected": "p30/c0010.jpg", "score_chosen": 0.53121, "score_rejected": 0.00043}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0037.jpg", "rejected": "p30/c0058.jpg", "score_chosen": 0.53121, "score_rejected": 0.00063}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0029.jpg", "rejected": "p30/c0033.jpg", "score_chosen": 0.5, "score_rejected": 0.0008}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0046.jpg", "rejected": "p30/c0009.jpg", "score_chosen": 0.5, "score_rejected": 0.0008}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0049.jpg", "rejected": "p30/c0048.jpg", "score_chosen": 0.5, "score_rejected": 0.00193}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0034.jpg", "rejected": "p30/c0043.jpg", "score_chosen": 0.43782, "score_rejected": 0.00359}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0035.jpg", "rejected": "p30/c0040.jpg", "score_chosen": 0.43782, "score_rejected": 0.00758}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0047.jpg", "rejected": "p30/c0026.jpg", "score_chosen": 0.43782, "score_rejected": 0.00758}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0016.jpg", "rejected": "p30/c0018.jpg", "score_chosen": 0.37754, "score_rejected": 0.00758}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0024.jpg", "rejected": "p30/c0011.jpg", "score_chosen": 0.37754, "score_rejected": 0.00758}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0020.jpg", "rejected": "p30/c0060.jpg", "score_chosen": 0.34864, "score_rejected": 0.00858}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0063.jpg", "rejected": "p30/c0006.jpg", "score_chosen": 0.34864, "score_rejected": 0.00971}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0019.jpg", "rejected": "p30/c0012.jpg", "score_chosen": 0.32082, "score_rejected": 0.01591}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0023.jpg", "rejected": "p30/c0025.jpg", "score_chosen": 0.32082, "score_rejected": 0.02033}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0051.jpg", "rejected": "p30/c0017.jpg", "score_chosen": 0.32082, "score_rejected": 0.02298}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0053.jpg", "rejected": "p30/c0041.jpg", "score_chosen": 0.32082, "score_rejected": 0.02596}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0014.jpg", "rejected": "p30/c0002.jpg", "score_chosen": 0.26894, "score_rejected": 0.03733}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0039.jpg", "rejected": "p30/c0045.jpg", "score_chosen": 0.26894, "score_rejected": 0.04743}
+{"prompt": "lifestyle photo of a skincare product on a bedside table, morning light", "chosen": "p30/c0004.jpg", "rejected": "p30/c0044.jpg", "score_chosen": 0.24508, "score_rejected": 0.06755}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0024.jpg", "rejected": "p31/c0001.jpg", "score_chosen": 0.97404, "score_rejected": 0.00055}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0052.jpg", "rejected": "p31/c0036.jpg", "score_chosen": 0.86704, "score_rejected": 0.00071}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0037.jpg", "rejected": "p31/c0045.jpg", "score_chosen": 0.73106, "score_rejected": 0.00133}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0015.jpg", "rejected": "p31/c0006.jpg", "score_chosen": 0.70578, "score_rejected": 0.00218}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0022.jpg", "rejected": "p31/c0058.jpg", "score_chosen": 0.70578, "score_rejected": 0.00247}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0014.jpg", "rejected": "p31/c0012.jpg", "score_chosen": 0.65136, "score_rejected": 0.00247}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0018.jpg", "rejected": "p31/c0003.jpg", "score_chosen": 0.62246, "score_rejected": 0.00669}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0063.jpg", "rejected": "p31/c0062.jpg", "score_chosen": 0.62246, "score_rejected": 0.01799}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0055.jpg", "rejected": "p31/c0023.jpg", "score_chosen": 0.59267, "score_rejected": 0.02298}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0000.jpg", "rejected": "p31/c0060.jpg", "score_chosen": 0.56218, "score_rejected": 0.02931}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0010.jpg", "rejected": "p31/c0042.jpg", "score_chosen": 0.56218, "score_rejected": 0.02931}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0053.jpg", "rejected": "p31/c0046.jpg", "score_chosen": 0.56218, "score_rejected": 0.03309}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0032.jpg", "rejected": "p31/c0039.jpg", "score_chosen": 0.5, "score_rejected": 0.03309}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0013.jpg", "rejected": "p31/c0005.jpg", "score_chosen": 0.46879, "score_rejected": 0.04209}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0016.jpg", "rejected": "p31/c0028.jpg", "score_chosen": 0.46879, "score_rejected": 0.04743}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0025.jpg", "rejected": "p31/c0041.jpg", "score_chosen": 0.46879, "score_rejected": 0.06755}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0031.jpg", "rejected": "p31/c0008.jpg", "score_chosen": 0.46879, "score_rejected": 0.06755}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0033.jpg", "rejected": "p31/c0027.jpg", "score_chosen": 0.43782, "score_rejected": 0.10669}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0011.jpg", "rejected": "p31/c0009.jpg", "score_chosen": 0.40733, "score_rejected": 0.10669}
+{"prompt": "still life of a skincare jar beside a glass of water and a book", "chosen": "p31/c0026.jpg", "rejected": "p31/c0057.jpg", "score_chosen": 0.40733, "score_rejected": 0.1192}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0041.jpg", "rejected": "p32/c0052.jpg", "score_chosen": 0.40733, "score_rejected": 0.04209}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0046.jpg", "rejected": "p32/c0017.jpg", "score_chosen": 0.32082, "score_rejected": 0.04209}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0024.jpg", "rejected": "p32/c0015.jpg", "score_chosen": 0.29422, "score_rejected": 0.04209}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0054.jpg", "rejected": "p32/c0034.jpg", "score_chosen": 0.26894, "score_rejected": 0.04743}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0004.jpg", "rejected": "p32/c0003.jpg", "score_chosen": 0.24508, "score_rejected": 0.04743}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0027.jpg", "rejected": "p32/c0057.jpg", "score_chosen": 0.24508, "score_rejected": 0.0534}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0000.jpg", "rejected": "p32/c0042.jpg", "score_chosen": 0.2227, "score_rejected": 0.0534}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0012.jpg", "rejected": "p32/c0026.jpg", "score_chosen": 0.2227, "score_rejected": 0.0534}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0019.jpg", "rejected": "p32/c0002.jpg", "score_chosen": 0.2227, "score_rejected": 0.0534}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0058.jpg", "rejected": "p32/c0018.jpg", "score_chosen": 0.2227, "score_rejected": 0.06009}
+{"prompt": "still life of products arranged on a stack of folded towels", "chosen": "p32/c0062.jpg", "rejected": "p32/c0013.jpg", "score_chosen": 0.2227, "score_rejected": 0.06009}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0046.jpg", "rejected": "p33/c0056.jpg", "score_chosen": 0.85195, "score_rejected": 0.07586}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0051.jpg", "rejected": "p33/c0001.jpg", "score_chosen": 0.83548, "score_rejected": 0.07586}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0055.jpg", "rejected": "p33/c0026.jpg", "score_chosen": 0.83548, "score_rejected": 0.0851}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0000.jpg", "rejected": "p33/c0011.jpg", "score_chosen": 0.81757, "score_rejected": 0.0851}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0019.jpg", "rejected": "p33/c0008.jpg", "score_chosen": 0.70578, "score_rejected": 0.0851}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0039.jpg", "rejected": "p33/c0061.jpg", "score_chosen": 0.70578, "score_rejected": 0.09535}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0032.jpg", "rejected": "p33/c0042.jpg", "score_chosen": 0.59267, "score_rejected": 0.09535}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0053.jpg", "rejected": "p33/c0003.jpg", "score_chosen": 0.56218, "score_rejected": 0.09535}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0029.jpg", "rejected": "p33/c0060.jpg", "score_chosen": 0.46879, "score_rejected": 0.10669}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0033.jpg", "rejected": "p33/c0016.jpg", "score_chosen": 0.43782, "score_rejected": 0.10669}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0054.jpg", "rejected": "p33/c0062.jpg", "score_chosen": 0.40733, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0063.jpg", "rejected": "p33/c0047.jpg", "score_chosen": 0.40733, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0023.jpg", "rejected": "p33/c0028.jpg", "score_chosen": 0.37754, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0027.jpg", "rejected": "p33/c0024.jpg", "score_chosen": 0.37754, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0018.jpg", "rejected": "p33/c0010.jpg", "score_chosen": 0.34864, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0022.jpg", "rejected": "p33/c0009.jpg", "score_chosen": 0.34864, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0037.jpg", "rejected": "p33/c0006.jpg", "score_chosen": 0.34864, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, model in profile with wet-look hair", "chosen": "p33/c0012.jpg", "rejected": "p33/c0004.jpg", "score_chosen": 0.29422, "score_rejected": 0.1192}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0036.jpg", "rejected": "p34/c0060.jpg", "score_chosen": 0.98757, "score_rejected": 0.00026}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0043.jpg", "rejected": "p34/c0045.jpg", "score_chosen": 0.97702, "score_rejected": 0.00055}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0013.jpg", "rejected": "p34/c0012.jpg", "score_chosen": 0.85195, "score_rejected": 0.00117}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0022.jpg", "rejected": "p34/c0011.jpg", "score_chosen": 0.7773, "score_rejected": 0.00117}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0046.jpg", "rejected": "p34/c0010.jpg", "score_chosen": 0.73106, "score_rejected": 0.00117}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0030.jpg", "rejected": "p34/c0002.jpg", "score_chosen": 0.67918, "score_rejected": 0.00117}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0032.jpg", "rejected": "p34/c0014.jpg", "score_chosen": 0.67918, "score_rejected": 0.0015}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0039.jpg", "rejected": "p34/c0006.jpg", "score_chosen": 0.59267, "score_rejected": 0.0017}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0027.jpg", "rejected": "p34/c0061.jpg", "score_chosen": 0.5, "score_rejected": 0.00193}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0028.jpg", "rejected": "p34/c0009.jpg", "score_chosen": 0.5, "score_rejected": 0.00218}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0016.jpg", "rejected": "p34/c0041.jpg", "score_chosen": 0.46879, "score_rejected": 0.0028}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0017.jpg", "rejected": "p34/c0000.jpg", "score_chosen": 0.46879, "score_rejected": 0.00317}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0019.jpg", "rejected": "p34/c0054.jpg", "score_chosen": 0.46879, "score_rejected": 0.00407}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0055.jpg", "rejected": "p34/c0052.jpg", "score_chosen": 0.46879, "score_rejected": 0.00522}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0057.jpg", "rejected": "p34/c0062.jpg", "score_chosen": 0.46879, "score_rejected": 0.00591}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0034.jpg", "rejected": "p34/c0059.jpg", "score_chosen": 0.43782, "score_rejected": 0.01099}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0035.jpg", "rejected": "p34/c0004.jpg", "score_chosen": 0.37754, "score_rejected": 0.01243}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0044.jpg", "rejected": "p34/c0029.jpg", "score_chosen": 0.37754, "score_rejected": 0.01799}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0051.jpg", "rejected": "p34/c0049.jpg", "score_chosen": 0.37754, "score_rejected": 0.02033}
+{"prompt": "beauty campaign image, product held between two fingers against bare skin", "chosen": "p34/c0031.jpg", "rejected": "p34/c0007.jpg", "score_chosen": 0.34864, "score_rejected": 0.02298}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0043.jpg", "rejected": "p35/c0025.jpg", "score_chosen": 0.97967, "score_rejected": 0.2227}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0017.jpg", "rejected": "p35/c0014.jpg", "score_chosen": 0.85195, "score_rejected": 0.2227}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0061.jpg", "rejected": "p35/c0059.jpg", "score_chosen": 0.81757, "score_rejected": 0.24508}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0051.jpg", "rejected": "p35/c0049.jpg", "score_chosen": 0.7773, "score_rejected": 0.26894}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0015.jpg", "rejected": "p35/c0024.jpg", "score_chosen": 0.75492, "score_rejected": 0.26894}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0041.jpg", "rejected": "p35/c0022.jpg", "score_chosen": 0.75492, "score_rejected": 0.29422}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0047.jpg", "rejected": "p35/c0048.jpg", "score_chosen": 0.75492, "score_rejected": 0.32082}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0055.jpg", "rejected": "p35/c0033.jpg", "score_chosen": 0.73106, "score_rejected": 0.37754}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0003.jpg", "rejected": "p35/c0054.jpg", "score_chosen": 0.70578, "score_rejected": 0.40733}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0031.jpg", "rejected": "p35/c0039.jpg", "score_chosen": 0.70578, "score_rejected": 0.40733}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0042.jpg", "rejected": "p35/c0037.jpg", "score_chosen": 0.70578, "score_rejected": 0.40733}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0011.jpg", "rejected": "p35/c0018.jpg", "score_chosen": 0.67918, "score_rejected": 0.40733}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0019.jpg", "rejected": "p35/c0005.jpg", "score_chosen": 0.67918, "score_rejected": 0.40733}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0032.jpg", "rejected": "p35/c0004.jpg", "score_chosen": 0.67918, "score_rejected": 0.40733}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0035.jpg", "rejected": "p35/c0002.jpg", "score_chosen": 0.67918, "score_rejected": 0.40733}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0056.jpg", "rejected": "p35/c0052.jpg", "score_chosen": 0.65136, "score_rejected": 0.43782}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0058.jpg", "rejected": "p35/c0045.jpg", "score_chosen": 0.65136, "score_rejected": 0.43782}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0060.jpg", "rejected": "p35/c0057.jpg", "score_chosen": 0.65136, "score_rejected": 0.46879}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0008.jpg", "rejected": "p35/c0053.jpg", "score_chosen": 0.62246, "score_rejected": 0.46879}
+{"prompt": "product photograph of a tinted balm with its cap off, seamless background", "chosen": "p35/c0010.jpg", "rejected": "p35/c0038.jpg", "score_chosen": 0.62246, "score_rejected": 0.46879}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0022.jpg", "rejected": "p36/c0054.jpg", "score_chosen": 0.90465, "score_rejected": 0.00063}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0061.jpg", "rejected": "p36/c0034.jpg", "score_chosen": 0.83548, "score_rejected": 0.00103}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0042.jpg", "rejected": "p36/c0016.jpg", "score_chosen": 0.81757, "score_rejected": 0.00117}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0057.jpg", "rejected": "p36/c0060.jpg", "score_chosen": 0.7773, "score_rejected": 0.00247}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0018.jpg", "rejected": "p36/c0004.jpg", "score_chosen": 0.70578, "score_rejected": 0.00317}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0046.jpg", "rejected": "p36/c0053.jpg", "score_chosen": 0.59267, "score_rejected": 0.00407}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0011.jpg", "rejected": "p36/c0045.jpg", "score_chosen": 0.56218, "score_rejected": 0.00522}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0019.jpg", "rejected": "p36/c0039.jpg", "score_chosen": 0.53121, "score_rejected": 0.00758}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0025.jpg", "rejected": "p36/c0038.jpg", "score_chosen": 0.53121, "score_rejected": 0.03309}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0044.jpg", "rejected": "p36/c0035.jpg", "score_chosen": 0.5, "score_rejected": 0.03733}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0062.jpg", "rejected": "p36/c0048.jpg", "score_chosen": 0.46879, "score_rejected": 0.04209}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0001.jpg", "rejected": "p36/c0052.jpg", "score_chosen": 0.43782, "score_rejected": 0.04743}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0013.jpg", "rejected": "p36/c0040.jpg", "score_chosen": 0.43782, "score_rejected": 0.07586}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0036.jpg", "rejected": "p36/c0029.jpg", "score_chosen": 0.43782, "score_rejected": 0.07586}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0021.jpg", "rejected": "p36/c0020.jpg", "score_chosen": 0.37754, "score_rejected": 0.07586}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0028.jpg", "rejected": "p36/c0026.jpg", "score_chosen": 0.37754, "score_rejected": 0.09535}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0005.jpg", "rejected": "p36/c0056.jpg", "score_chosen": 0.34864, "score_rejected": 0.1192}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0007.jpg", "rejected": "p36/c0050.jpg", "score_chosen": 0.34864, "score_rejected": 0.13296}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0043.jpg", "rejected": "p36/c0058.jpg", "score_chosen": 0.34864, "score_rejected": 0.14805}
+{"prompt": "portrait of a model with sun-lit freckles holding a product near her face", "chosen": "p36/c0047.jpg", "rejected": "p36/c0055.jpg", "score_chosen": 0.34864, "score_rejected": 0.14805}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0015.jpg", "rejected": "p37/c0003.jpg", "score_chosen": 0.81757, "score_rejected": 0.00103}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0046.jpg", "rejected": "p37/c0001.jpg", "score_chosen": 0.73106, "score_rejected": 0.0015}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0019.jpg", "rejected": "p37/c0048.jpg", "score_chosen": 0.62246, "score_rejected": 0.00858}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0000.jpg", "rejected": "p37/c0009.jpg", "score_chosen": 0.59267, "score_rejected": 0.01099}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0014.jpg", "rejected": "p37/c0049.jpg", "score_chosen": 0.56218, "score_rejected": 0.02033}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0025.jpg", "rejected": "p37/c0004.jpg", "score_chosen": 0.53121, "score_rejected": 0.03309}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0040.jpg", "rejected": "p37/c0050.jpg", "score_chosen": 0.5, "score_rejected": 0.04743}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0011.jpg", "rejected": "p37/c0002.jpg", "score_chosen": 0.46879, "score_rejected": 0.06009}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0047.jpg", "rejected": "p37/c0056.jpg", "score_chosen": 0.46879, "score_rejected": 0.0851}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0016.jpg", "rejected": "p37/c0034.jpg", "score_chosen": 0.43782, "score_rejected": 0.09535}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0045.jpg", "rejected": "p37/c0059.jpg", "score_chosen": 0.43782, "score_rejected": 0.1192}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0060.jpg", "rejected": "p37/c0036.jpg", "score_chosen": 0.43782, "score_rejected": 0.1192}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0031.jpg", "rejected": "p37/c0042.jpg", "score_chosen": 0.40733, "score_rejected": 0.14805}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0033.jpg", "rejected": "p37/c0026.jpg", "score_chosen": 0.40733, "score_rejected": 0.14805}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0037.jpg", "rejected": "p37/c0023.jpg", "score_chosen": 0.40733, "score_rejected": 0.14805}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0039.jpg", "rejected": "p37/c0008.jpg", "score_chosen": 0.40733, "score_rejected": 0.14805}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0062.jpg", "rejected": "p37/c0007.jpg", "score_chosen": 0.40733, "score_rejected": 0.16452}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0020.jpg", "rejected": "p37/c0018.jpg", "score_chosen": 0.37754, "score_rejected": 0.18243}
+{"prompt": "flat lay of three products in a diagonal line with soft hard-light shadows", "chosen": "p37/c0022.jpg", "rejected": "p37/c0010.jpg", "score_chosen": 0.34864, "score_rejected": 0.18243}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0055.jpg", "rejected": "p38/c0054.jpg", "score_chosen": 0.95257, "score_rejected": 0.09535}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0038.jpg", "rejected": "p38/c0010.jpg", "score_chosen": 0.9466, "score_rejected": 0.18243}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0023.jpg", "rejected": "p38/c0043.jpg", "score_chosen": 0.93245, "score_rejected": 0.2227}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0051.jpg", "rejected": "p38/c0053.jpg", "score_chosen": 0.93245, "score_rejected": 0.24508}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0017.jpg", "rejected": "p38/c0047.jpg", "score_chosen": 0.92414, "score_rejected": 0.24508}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0020.jpg", "rejected": "p38/c0034.jpg", "score_chosen": 0.92414, "score_rejected": 0.24508}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0058.jpg", "rejected": "p38/c0036.jpg", "score_chosen": 0.92414, "score_rejected": 0.26894}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0013.jpg", "rejected": "p38/c0033.jpg", "score_chosen": 0.9149, "score_rejected": 0.26894}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0022.jpg", "rejected": "p38/c0000.jpg", "score_chosen": 0.9149, "score_rejected": 0.26894}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0028.jpg", "rejected": "p38/c0041.jpg", "score_chosen": 0.90465, "score_rejected": 0.29422}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0044.jpg", "rejected": "p38/c0037.jpg", "score_chosen": 0.90465, "score_rejected": 0.29422}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0057.jpg", "rejected": "p38/c0027.jpg", "score_chosen": 0.90465, "score_rejected": 0.29422}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0007.jpg", "rejected": "p38/c0011.jpg", "score_chosen": 0.89331, "score_rejected": 0.29422}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0015.jpg", "rejected": "p38/c0008.jpg", "score_chosen": 0.86704, "score_rejected": 0.29422}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0061.jpg", "rejected": "p38/c0056.jpg", "score_chosen": 0.86704, "score_rejected": 0.32082}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0026.jpg", "rejected": "p38/c0042.jpg", "score_chosen": 0.85195, "score_rejected": 0.32082}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0045.jpg", "rejected": "p38/c0004.jpg", "score_chosen": 0.85195, "score_rejected": 0.32082}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0014.jpg", "rejected": "p38/c0059.jpg", "score_chosen": 0.75492, "score_rejected": 0.34864}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0002.jpg", "rejected": "p38/c0009.jpg", "score_chosen": 0.73106, "score_rejected": 0.34864}
+{"prompt": "still life of a single product on a rippled sand surface", "chosen": "p38/c0049.jpg", "rejected": "p38/c0003.jpg", "score_chosen": 0.73106, "score_rejected": 0.34864}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0004.jpg", "rejected": "p39/c0023.jpg", "score_chosen": 0.73106, "score_rejected": 0.13296}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0032.jpg", "rejected": "p39/c0043.jpg", "score_chosen": 0.73106, "score_rejected": 0.16452}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0024.jpg", "rejected": "p39/c0061.jpg", "score_chosen": 0.70578, "score_rejected": 0.20181}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0039.jpg", "rejected": "p39/c0060.jpg", "score_chosen": 0.70578, "score_rejected": 0.2227}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0041.jpg", "rejected": "p39/c0049.jpg", "score_chosen": 0.70578, "score_rejected": 0.2227}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0052.jpg", "rejected": "p39/c0016.jpg", "score_chosen": 0.67918, "score_rejected": 0.2227}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0003.jpg", "rejected": "p39/c0010.jpg", "score_chosen": 0.65136, "score_rejected": 0.2227}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0006.jpg", "rejected": "p39/c0045.jpg", "score_chosen": 0.62246, "score_rejected": 0.24508}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0020.jpg", "rejected": "p39/c0037.jpg", "score_chosen": 0.59267, "score_rejected": 0.24508}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0040.jpg", "rejected": "p39/c0018.jpg", "score_chosen": 0.59267, "score_rejected": 0.24508}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0047.jpg", "rejected": "p39/c0007.jpg", "score_chosen": 0.59267, "score_rejected": 0.24508}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0000.jpg", "rejected": "p39/c0055.jpg", "score_chosen": 0.56218, "score_rejected": 0.26894}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0014.jpg", "rejected": "p39/c0053.jpg", "score_chosen": 0.56218, "score_rejected": 0.26894}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0031.jpg", "rejected": "p39/c0048.jpg", "score_chosen": 0.56218, "score_rejected": 0.26894}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0035.jpg", "rejected": "p39/c0038.jpg", "score_chosen": 0.56218, "score_rejected": 0.26894}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0044.jpg", "rejected": "p39/c0022.jpg", "score_chosen": 0.53121, "score_rejected": 0.26894}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0054.jpg", "rejected": "p39/c0021.jpg", "score_chosen": 0.53121, "score_rejected": 0.26894}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0005.jpg", "rejected": "p39/c0058.jpg", "score_chosen": 0.5, "score_rejected": 0.29422}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0012.jpg", "rejected": "p39/c0030.jpg", "score_chosen": 0.5, "score_rejected": 0.29422}
+{"prompt": "beauty campaign image, close crop of collarbone and jaw with dewy skin", "chosen": "p39/c0025.jpg", "rejected": "p39/c0002.jpg", "score_chosen": 0.5, "score_rejected": 0.29422}
