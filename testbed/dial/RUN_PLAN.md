@@ -40,7 +40,7 @@ the SRPO constraint binds everything to FLUX.1-dev. Dated and checkable.
 1. `rsync -avz` off-pod: LoRA .safetensors (all checkpoints), all 360 sweep images,
    all 180 corruption images, training samples, ai-toolkit config + logs, pip freeze.
 2. Verify local file count + spot-open 3 images BEFORE terminate.
-3. Record actual billed $ from RunPod dashboard -> report to Amar.
+3. Record actual billed $ from RunPod dashboard in the cost log.
 
 ## Budget
 | item | est |

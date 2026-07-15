@@ -3,7 +3,7 @@ Section 1: 15 sampled multi-image clusters -> row of member thumbnails.
    Question per row: same creative family? (grouping sanity)
 Section 2: 15 sampled FB test images -> the image + its top-5 nearest TRAIN neighbors.
    Checklist per row: same product? same person? same set/background? verdict: style vs shoot.
-Outputs: eval/audit/contact_sheet.html (for Amar) + eval/audit/panels/*.png composites (for Claude's independent pass).
+Outputs: eval/audit/contact_sheet.html (human rater) + eval/audit/panels/*.png composites (Claude's independent pass).
 """
 import base64, io, json, os, random
 import numpy as np

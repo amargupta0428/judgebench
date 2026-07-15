@@ -1,4 +1,4 @@
-"""Repair pass for the v2 logo-masked set, per Amar's rule (July 6):
+"""Repair pass for the v2 logo-masked set, per the project's fixed rule (July 6):
 "if you can't get rid of obvious brand cues, the image is not used."
 
 Inputs: v2 audit verdicts (v2_verdict_collated.json).

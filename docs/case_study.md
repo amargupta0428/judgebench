@@ -163,7 +163,7 @@
   Gradient pressure drove the target judge +0.36 while BOTH independent judges
   saw brand quality *decline* (frozen -0.03, GPT-4o -0.09). The optimizer did not
   learn to make better rhode creatives; it learned to exploit its specific reward.
-- **The hacked-vs-broken control (Amar's goblin concern) is the smoking gun:** the
+- **The hacked-vs-broken control is the smoking gun:** the
   reward rose +0.26 on golden retrievers and vintage cars — prompts unrelated to
   the brand — but ONLY in the attacked judge's eyes (GPT-4o control delta 0.00).
   The generator injected reward-inflating features (pink palette, glossy minimal
@@ -245,7 +245,7 @@
   data. Phase 2's exploit map now has six distinct, predicted attack surfaces.
 
 ## Finding 7 (July 7): violation training memorizes the attack, not the concept
-- Origin: Amar's design review caught a spec deviation — PHASE1_BUILD §3 called for
+- Origin: a design review caught a spec deviation — the build spec called for
   corruption negatives in SigLIP-tuned training (one family held out); the July 6
   implementation shipped competitor-negatives-only without flagging it. Logged in
   RIGOR_LOG; resolved by ablation rather than hand-waving.
@@ -392,7 +392,7 @@ afternoon task. It took three build generations, and the audit trail is the find
 - **v3 (EasyOCR/CRAFT tight boxes + tesseract + carry-over coords, drop rules):** 166
   built; independent verification wave: 21 pass / 54 flag / 29 borderline; 32 of the
   flags fixable at audit coordinates with detector-verified patches; the rest dropped.
-  Operating rule (Amar, explicit): an image that cannot be cleanly de-branded is NOT
+  Operating rule, fixed upfront: an image that cannot be cleanly de-branded is NOT
   USED — no residual-cue image ships regardless of yield.
 - **Final instrument (FROZEN July 6):** 127 pairs across 110 unique clusters —
   62 v2-audit certified, 21 v3-audit certified, 32 detector-verified fixes, 12
