@@ -195,7 +195,7 @@ model weights, and embeddings are not.
 ## Data policy
 
 Raw brand images are third-party copyrighted material and are **not** in this
-repo. Manifests carry URLs, hashes, extracted features, scores, and full
+repo. Manifests carry post/ad identifiers, hashes, extracted features, scores, and full
 construction records; every derived number regenerates from committed
 artifacts. Generated FLUX/SDXL outputs are excluded for size. The hack gallery
 (`docs/hack_gallery.html`) embeds a small set of our own generated exemplars.
