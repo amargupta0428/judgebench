@@ -13,9 +13,10 @@ land exactly where the report card predicted. They do.
 
 - **Blind spots are universal and measurable.** On 2,622 constructed
   ground-truth test items, no judge does all three jobs (brand ID, violation
-  detection, ordinal ranking). Severity-1 brand violations are near-invisible to
-  every judge (detection at most 10 percent at 5 percent FPR); the best judge
-  catches at most half of severity-3.
+  detection, ordinal ranking). Outside a judge's own training families, severity-1 brand violations are
+  near-invisible (detection at most 10 percent at 5 percent FPR), and even
+  severity-3 detection tops out around half; training on a family fixes only
+  that family (see the enumeration finding below).
 - **Exploit severity scales with optimizer access.** Hack-gap on the
   SigLIP-tuned judge: selection/BoN 0.13, preference/DPO 0.11, gradient/SRPO
   0.45. Choose-only < learn-preferences << direct-gradients.
@@ -49,7 +50,7 @@ land exactly where the report card predicted. They do.
   novel attacks retain partial traction.
 - **Corpus validity (Probe B):** Ad-Library and Instagram images are highly
   separable within a brand (bal-acc 0.72-0.97) — but on 27 visually verified
-  same-creative pairs that appear on both platforms, separation collapses to
+  same-creative clusters that appear on both platforms, separation collapses to
   chance (AUC 0.49, CI [0.38, 0.62]). The separability is content mix, not
   pipeline artifacts: no platform fingerprint for a judge to ride.
 
@@ -90,8 +91,8 @@ cluster-level with a certified 0.0 percent near-twin leak rate.
 |---|---|---|---|---|---|
 | Rules (J1) | 0.59 | 0.04 | 0.07 | 0.01 | 0.03 |
 | SigLIP frozen (J3) | 0.73 | 0.00 | 0.10 | -0.03 | 0.07 |
-| SigLIP tuned v1 (J3) | **0.99** | 0.00 | 0.07 | 0.24 | 0.06 |
-| SigLIP tuned v2 (+violation negs) | 0.98 | 0.01 | **0.30** | 0.45 | 0.06 |
+| SigLIP tuned v1 (J3) | **0.99** | 0.00 | 0.07 | 0.24 | 0.04 |
+| SigLIP tuned v2 (+violation negs) | 0.98 | 0.01 | **0.30** | 0.45 | 0.04 |
 | QwenVL-7B zero-shot (J2b) | 0.98 | **0.31** | 0.02 | **0.94** | 0.20 |
 | QwenVL-7B LoRA (J3b) | 0.98 | 0.05 | 0.12 | 0.16 | **0.03** |
 | GPT-4o (J2) | 0.82 | 0.04 | 0.18 | 0.65 | 0.17 |
@@ -121,7 +122,7 @@ What the table means, in brief:
 ## Phase 2: exploitability leaderboard
 
 Three attack arms, all on the same brand and matched evaluation protocol.
-BoN: 6,112 base FLUX.1-dev images, bootstrap best-of-N per judge, winners
+BoN: 6,144 base FLUX.1-dev images, bootstrap best-of-N per judge, winners
 re-scored by a held-out panel. DPO: SDXL Diffusion-DPO-LoRA on pairs harvested
 from the BoN pool. SRPO: 200 steps of direct gradient training on FLUX.1-dev
 with the judge as the differentiable reward.

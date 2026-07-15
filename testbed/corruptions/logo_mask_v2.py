@@ -20,6 +20,7 @@ Output: data/testset/logo_masked_v2/ + manifest_v2.jsonl + audit contact sheets.
 import json
 import subprocess
 import tempfile
+import os
 from pathlib import Path
 
 import numpy as np
@@ -27,8 +28,7 @@ from PIL import Image
 
 from . import common, typography, inpaint
 
-S = Path('/tmp/'
-         'a0ccc5ba-4ed1-44be-a496-9d49b92a3375/scratchpad')
+S = Path(os.environ.get('SCRATCH_DIR', 'scratch'))
 OUT = common.REPO / "data" / "testset" / "logo_masked_v2"
 MAX_MASK_FRAC = 0.35
 REGION_PAD_FRAC = 0.30   # agent boxes are rough; pad generously

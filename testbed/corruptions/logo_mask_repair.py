@@ -21,6 +21,7 @@ Output: data/testset/logo_masked_v3/ + manifest_v3.jsonl + repair_report.json
 """
 
 import json
+import os
 from pathlib import Path
 
 import numpy as np
@@ -29,8 +30,7 @@ from PIL import Image
 from . import common, inpaint
 from .logo_mask_v2 import (LEXICON, WEAK_TOKENS, ocr_words_multi, OUT as V2_OUT)
 
-S = Path('/tmp/'
-         'a0ccc5ba-4ed1-44be-a496-9d49b92a3375/scratchpad')
+S = Path(os.environ.get('SCRATCH_DIR', 'scratch'))
 OUT = common.REPO / "data" / "testset" / "logo_masked_v3"
 MAX_REGIONS = 8
 MAX_MASK_FRAC = 0.20

@@ -180,7 +180,7 @@
 
 ## Finding 9 (July 8, overnight): first BoN Goodhart curves — the peak-then-decline
 ## exists, and Phase 1's report card predicted who bends first
-- Setup (spec 2a): 6,112 base-FLUX.1-dev images (40 prompts x 64 broad; 8 prompts
+- Setup (spec 2a): 6,144 base-FLUX.1-dev images (40 prompts x 64 broad; 8 prompts
   extended to 512 deep), every judge scores its own copy of the pool, bootstrap
   best-of-N selection, winner re-scored by the held-out panel (z-scored mean of
   the OTHER judges; --strict additionally drops same-family judges). Broad and

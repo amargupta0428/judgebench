@@ -37,8 +37,8 @@ module after the Phase-1 report card exists.
      pooled.
    - **Margin calibration:** does judge score-gap track human vote margin?
 2. **This is the human-validation leg we cut for budget** — 39.3k judgments,
-   free, from the exact dataset that showed a brand benchmark already exists. Using
-   it constructively is both science and good practice.
+   free, from the same dataset that showed a fine-grained brand benchmark
+   already exists. Using it constructively is both science and good practice.
 
 ## What it cannot do
 
@@ -59,8 +59,7 @@ module after the Phase-1 report card exists.
 - Rules + SigLIP-frozen: local CPU/GPU, $0.
 - QwenVL zero-shot: local GPU, $0.
 - GPT-4o + Gemini: 719 images × 2 judges ≈ 1,438 cached calls with ref image
-  attached — **estimate $8–20 depending on rubric length; not yet run**
-  
+  attached — **estimate $8–20 depending on rubric length; not yet run (budget-gated).**
 
 ## Summary
 
