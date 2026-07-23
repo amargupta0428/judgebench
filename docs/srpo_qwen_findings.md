@@ -91,7 +91,7 @@ model to a generative VLM turns a shattering exploit (+0.36) into a null
 (+0.01). The attack surface is a property of the **judge's architecture**, not
 of the brand or the pressure. Phase-1 predicted SigLIP was the "center without
 boundaries" judge, maximally exploitable; it predicted the LoRA judge grounds on
-genuine style (Finding 8, name-tag shortcut cured). Both predictions land: the
+genuine style (Finding 8: logo-masked AUC 0.93, logo delta 0.05). Both predictions land: the
 one with a single exploitable direction breaks, the one without holds.
 
 ## Caveats (stated plainly)

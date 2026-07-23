@@ -94,30 +94,43 @@ cluster-level with a certified 0.0 percent near-twin leak rate.
 | Rules (J1) | 0.59 | 0.04 | 0.07 | 0.01 | 0.03 |
 | SigLIP frozen (J3) | 0.73 | 0.00 | 0.10 | -0.03 | 0.07 |
 | SigLIP tuned v1 (J3) | **0.99** | 0.00 | 0.07 | 0.24 | 0.04 |
-| SigLIP tuned v2 (+violation negs) | 0.98 | 0.01 | **0.30** | 0.45 | 0.04 |
-| QwenVL-7B zero-shot (J2b) | 0.98 | **0.31** | 0.02 | **0.94** | 0.20 |
-| QwenVL-7B LoRA (J3b) | 0.98 | 0.05 | 0.12 | 0.16 | **0.03** |
-| GPT-4o (J2) | 0.82 | 0.04 | 0.18 | 0.65 | 0.17 |
-| Gemini 2.5 Pro (J2) | 0.86 | 0.06 | 0.20 | 0.72 | 0.06 |
+| SigLIP tuned v2 (+violation negs) | 0.98 | 0.01 | **0.30** | **0.45** | 0.04 |
+| QwenVL-7B zero-shot (J2b) | 0.53 | -0.00 | 0.02 | -0.02 | 0.20 |
+| QwenVL-7B LoRA (J3b) | 0.98 | 0.05 | 0.12 | 0.13 | **0.03** |
+| GPT-4o (J2) | 0.76 | 0.06 | 0.18 | 0.11 | 0.17 |
+| Gemini 2.5 Pro (J2) | 0.86 | 0.05 | 0.20 | 0.17 | 0.06 |
+
+*Metric correction (July 23): an earlier version of this table computed AUC and
+Spearman without tie handling, which fabricates discrimination for
+coarse-scored judges — most visibly QwenVL zero-shot (previously credited with
+brand AUC 0.98 and dial rho 0.94; it actually gives 94% of positives and 98%
+of competitor negatives the same 3/10). Continuous-scored judges, detection,
+and ECE were unaffected, as is all of Phase 2. Details and blast-radius audit:
+case study, Finding 18.*
 
 ![Detection heatmap](docs/figures/report_card_heatmap.png)
 
 What the table means, in brief:
 
-- **QwenVL zero-shot is a name-tag reader.** Brand AUC collapses 0.98 to 0.67
-  when logos are masked, yet it is the roster's best ranker (dial rho 0.94).
-- **Fine-tuning reallocates capability; it does not add it.** LoRA-tuning the
-  same QwenVL cures the logo shortcut (delta 0.31 to 0.05) and destroys its
-  ranking ability (0.94 to 0.16). SigLIP-tuning buys near-perfect brand ID and
-  nothing else.
+- **QwenVL zero-shot barely scores at all.** It gives 94 percent of real
+  positives — and 98 percent of competitor negatives — the same 3/10, so it
+  discriminates almost nothing (brand AUC 0.53, dial rho -0.02). A judge-shaped
+  fog, not a judge: rubric mode-collapse is what zero-shot 7B judging actually
+  looks like here.
+- **LoRA-tuning is what turns Qwen into a judge at all.** Same weights: from
+  near-constant scoring (AUC 0.53) to brand AUC 0.98 with the roster's best
+  calibration (ECE 0.03) — at the cost of near-binary score granularity (dial
+  rho 0.13), which Phase 2 later shows is a robustness feature, not a defect.
+  SigLIP-tuning buys near-perfect brand ID and nothing else.
 - **Violation training memorizes the attack, not the concept.** SigLIP-v2 adds
   810 corruption negatives (palette and typography only): detection explodes on
   those families (0.06 to 0.86) and moves zero on held-out families. You cannot
   enumerate your way to a safe judge.
-- **The frozen API VLMs land mid-pack and look alike.** Gemini 2.5 Pro edges
-  GPT-4o on every column (AUC 0.86 vs 0.82, dial rho 0.72 vs 0.65) with a mild
-  logo lean (delta 0.06) and, unlike GPT-4o (ECE 0.17), it is actually
-  well-calibrated (ECE 0.06). Neither approaches the tuned judges on brand ID.
+- **The frozen API VLMs land mid-pack.** Gemini 2.5 Pro beats GPT-4o on brand
+  ID (AUC 0.86 vs 0.76) and, unlike GPT-4o (ECE 0.17), it is actually
+  well-calibrated (ECE 0.06). Neither ranks the dial well (rho 0.17 vs 0.11 —
+  integer rubrics tie heavily, and tie-aware Spearman gives no credit for
+  ties), and neither approaches the tuned judges on brand ID.
 - **Everyone is near-blind to subtle (s1) violations**: the top row of every
   optimizer's gradient, and Phase 2's predicted exploit surface.
 

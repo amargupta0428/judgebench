@@ -25,20 +25,43 @@ from judges.j3_frozen import J3Frozen        # noqa: E402
 from judges.j1_rules import J1Rules          # noqa: E402
 
 
+def _ranks(x):
+    """Average ranks across ties (scipy.stats.rankdata equivalent).
+
+    Ties must share a rank: plain argsort ranking hands tied items arbitrary
+    distinct ranks, which fabricates discrimination for coarse-scored judges
+    (a judge scoring everything 3/10 came out AUC 0.98). With average ranks a
+    tied pos/neg pair counts 1/2 in the Mann-Whitney AUC and Spearman matches
+    the standard tie-corrected definition.
+    """
+    x = np.asarray(x, dtype=float)
+    order = np.argsort(x, kind="mergesort")
+    ranks = np.empty(len(x)); ranks[order] = np.arange(1, len(x) + 1)
+    xs = x[order]
+    i = 0
+    while i < len(xs):
+        j = i
+        while j + 1 < len(xs) and xs[j + 1] == xs[i]:
+            j += 1
+        if j > i:
+            ranks[order[i:j + 1]] = (i + j + 2) / 2
+        i = j + 1
+    return ranks
+
+
 def auc(pos, neg):
     if not len(pos) or not len(neg):
         return float("nan")
     pos, neg = np.asarray(pos), np.asarray(neg)
-    order = np.argsort(np.concatenate([pos, neg]))
-    ranks = np.empty(len(order)); ranks[order] = np.arange(1, len(order) + 1)
+    ranks = _ranks(np.concatenate([pos, neg]))
     rp = ranks[:len(pos)].sum()
     return float((rp - len(pos) * (len(pos) + 1) / 2) / (len(pos) * len(neg)))
 
 
 def spearman(a, b):
-    a, b = np.argsort(np.argsort(a)), np.argsort(np.argsort(b))
+    a, b = _ranks(a), _ranks(b)
     if a.std() == 0 or b.std() == 0:
-        return 0.0
+        return 0.0  # a constant scorer shows no evidence of ranking
     return float(np.corrcoef(a, b)[0, 1])
 
 

@@ -1,5 +1,42 @@
 # judgebench — case study log
 
+## Finding 18 (July 23): metric bug in our own report card — tie-unaware ranking manufactured a judge
+- A pre-send re-audit found `eval/report_card.py` computed AUC and Spearman
+  from plain `argsort` ranks with no tie handling: tied scores received
+  arbitrary distinct ranks. Harmless for continuous scorers (SigLIP, rules);
+  for coarse rubric scorers it fabricates discrimination — with heavy ties,
+  which side of a tied pair "wins" is decided by the sort, not the judge, and
+  a constant-scored dial group double-argsorts into identity ranks, i.e. a
+  perfect fake rho.
+- QwenVL zero-shot is the casualty: it gives 94% of real positives and 98% of
+  competitor negatives the same 3/10 (92% of all pos/neg pairs are ties).
+  Tie-aware (average-rank) metrics: brand AUC 0.98 -> 0.53, logo delta
+  0.31 -> -0.00 (masked AUC also 0.53), dial rho 0.94 -> -0.02. It was never
+  a name-tag reader with the roster's best ordinal sense; it is a
+  near-constant scorer. GPT-4o and Gemini dial rhos also deflate (0.65 ->
+  0.11, 0.72 -> 0.17) — integer rubrics tie heavily on the dial — and GPT-4o
+  brand AUC drops 0.82 -> 0.76. The ordinal-ranking claims for API judges are
+  withdrawn, not re-signed.
+- Blast-radius audit (what does NOT change): all SigLIP columns and rules
+  (continuous scores, effectively tie-free); det@5%FPR and ECE (threshold/bin
+  based, no ranks); Probe B (sklearn `roc_auc_score`, tie-aware all along);
+  the BoN gold curves (on the BoN pool Qwen-ZS splits 3s/4s ~50:50, sd 0.5 —
+  its z-scores are healthy); and every Phase 2 attack number (raw score
+  deltas, no ranking code). Method: first re-ran the unpatched pipeline and
+  confirmed it reproduces the committed report card exactly (0/192 values
+  differ), so the diff is purely the metric fix; then patched and
+  regenerated.
+- Supersedes: Finding 6's Dissociations 1 and 3, and the zero-shot half of
+  Finding 8. The corrected Finding 8 story is simpler and stronger:
+  LoRA-tuning did not trade ranking away for brand ID — it took an
+  uninformative scorer to brand AUC 0.98 (ECE 0.03). Its collapsed
+  granularity (near-binary P("yes")) is real and remains the robustness knob
+  Findings 15-17 turn.
+- The irony is the point. A project about judges failing under scrutiny
+  shipped a report card whose own metric failed under scrutiny — and it was
+  caught the same way we catch judges: by auditing the instrument instead of
+  trusting the number.
+
 ## Finding 17 (July 13): DPO preference attack on QwenVL-LoRA — prediction falsified, the coarse judge resists
 - The last empty cell in the judge × pressure matrix, run under a
   pre-registered prediction (RIGOR_LOG July 12): the Finding 15 interface
@@ -225,6 +262,9 @@
 - Costs: generation+scoring pod $37 actual; GPT-4o pool scoring $18.71.
 
 ## Finding 8 (July 7): the matched pair — fine-tuning reallocates capability, it doesn't add it
+*[The zero-shot numbers below (logo delta 0.31, dial 0.94, masked 0.67) are
+tie-handling artifacts — superseded by Finding 18. The LoRA-side numbers
+stand.]*
 - QwenVL-LoRA (J3b) complete: same 7B model as the zero-shot judge, LoRA on LM
   attention (vision tower frozen), binary brand supervision on the same train
   split as SigLIP-tuned v1 (rhode=yes, competitors=no; no violation negatives).
@@ -276,6 +316,9 @@
   far beyond noise.
 
 ## Finding 6 (July 7, overnight): report card v1 — five judges, three dissociations
+*[Dissociations 1 and 3 and the QwenVL-ZS / GPT-4o rank-based numbers below
+are tie-handling artifacts — superseded by Finding 18. Dissociation 2 and all
+detection numbers stand.]*
 - Judges run over all 2,622 test items: rules / SigLIP-frozen / SigLIP-tuned /
   QwenVL-7B zero-shot / GPT-4o. (Gemini quota-throttled, in progress; QwenVL-LoRA
   deferred to a supervised session.)
