@@ -1,5 +1,7 @@
 # judgebench
 
+[![tests](https://github.com/amargupta0428/judgebench/actions/workflows/tests.yml/badge.svg)](https://github.com/amargupta0428/judgebench/actions/workflows/tests.yml)
+
 **Which judges survive optimization pressure?** A study of the exploitability of
 image-generation QC judges (rule stacks, frozen VLM APIs, open VLMs, trained
 reward models) under matched optimization pressure, anchored in brand fidelity
