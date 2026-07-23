@@ -48,10 +48,15 @@ land exactly where the report card predicted. They do.
 - **Mechanistic peek:** the SigLIP exploit is a single embedding direction.
   Projecting it out collapses hacked-image scores from 0.84 to 0.54 while
   genuine brand images barely move (0.48 to 0.49).
-- **Hardening:** retraining with the SRPO hacks as negatives fully defeats the
-  seen attack (0.84 to 0.00, brand AUC intact at 0.997) but only dampens the
-  unseen DPO attack (0.47 to 0.28). You can harden against what you have seen;
-  novel attacks retain partial traction.
+- **Hardening:** retraining with the SRPO hacks as negatives drives the judge's
+  score on those hacks to ~0 (0.84 to <0.0005) with brand AUC intact at 0.997 —
+  but this is an **in-sample** number: the "seen attack" eval images are the
+  training negatives themselves, so it demonstrates patching those examples,
+  not robustness to the attack. The transferable evidence is the unseen DPO
+  attack (different generator, never trained on): dampened but not defeated
+  (0.47 to 0.28). You can patch what you have seen; novel attacks retain
+  partial traction. A fresh adaptive attack against the hardened judge was not
+  run — that is the decisive missing test.
 - **Corpus validity (Probe B):** Ad-Library and Instagram images are highly
   separable within a brand (bal-acc 0.72-0.97) — but on 27 visually verified
   same-creative clusters that appear on both platforms, separation collapses to
@@ -91,7 +96,7 @@ cluster-level with a certified 0.0 percent near-twin leak rate.
 
 ### Report card (test split only; fits on train/val)
 
-| Judge | Brand AUC | Logo delta | Mean det@5%FPR | Dial rho | ECE |
+| Judge | Brand AUC | Logo delta | Mean det@≤5%FPR | Dial rho | ECE |
 |---|---|---|---|---|---|
 | Rules (J1) | 0.59 | 0.04 | 0.07 | 0.01 | 0.03 |
 | SigLIP frozen (J3) | 0.73 | 0.00 | 0.10 | -0.03 | 0.07 |
@@ -100,15 +105,27 @@ cluster-level with a certified 0.0 percent near-twin leak rate.
 | QwenVL-7B zero-shot (J2b) | 0.53 | -0.00 | 0.02 | -0.02 | 0.20 |
 | QwenVL-7B LoRA (J3b) | 0.98 | 0.05 | 0.12 | 0.13 | **0.03** |
 | GPT-4o (J2) | 0.76 | 0.06 | 0.18 | 0.11 | 0.17 |
-| Gemini 2.5 Pro (J2) | 0.86 | 0.05 | 0.20 | 0.17 | 0.06 |
+| Gemini 2.5 Pro (J2) | 0.86 | 0.05 | 0.20 | 0.17 | 0.07 |
 
-*Metric correction (July 23): an earlier version of this table computed AUC and
-Spearman without tie handling, which fabricates discrimination for
+*Metric correction #1 (July 23): an earlier version of this table computed AUC
+and Spearman without tie handling, which fabricates discrimination for
 coarse-scored judges — most visibly QwenVL zero-shot (previously credited with
 brand AUC 0.98 and dial rho 0.94; it actually gives 94% of positives and 98%
-of competitor negatives the same 3/10). Continuous-scored judges, detection,
-and ECE were unaffected, as is all of Phase 2. Details and blast-radius audit:
-case study, Finding 18.*
+of competitor negatives the same 3/10). Details: case study, Finding 18.*
+
+*Metric correction #2 (July 23, later the same day): a systematic bug-class
+audit found correction #1's claim that "detection and ECE were unaffected" was
+wrong on both counts. (a) The detection threshold (5th percentile of
+real-positive scores, strict <) does not realize 5% FPR on discrete scorers:
+realized FPR is 5.05% for Rules and SigLIP frozen but 3.2% for GPT-4o, 2.4%
+for Gemini, and exactly **0%** for QwenVL zero-shot, whose detection numbers
+therefore reflect a far stricter operating point than the label claimed. The
+column is now det@≤5%FPR and per-judge realized FPR ships in the results JSON.
+(b) The ECE binning silently dropped scores of exactly 1.0 (API rubric scores
+are ints/10, so they occur); fixing the final bin moves GPT-4o 0.170→0.172 and
+Gemini 0.064→0.071 (displayed 0.06→0.07). No other value in this table
+changed. Regression tests now pin both bug classes plus the original tie bug
+(`tests/test_metrics.py`, run in CI). Details: case study, Finding 19.*
 
 ![Detection heatmap](docs/figures/report_card_heatmap.png)
 
@@ -190,10 +207,14 @@ that single direction out drops hacked images 0.843 to 0.535 and leaves genuine
 brand images essentially unchanged (0.479 to 0.489).
 
 **Hardening round** (`eval/results/hardening.json`): SigLIP-tuned-v3 = v1
-recipe plus the SRPO hacks as a third negative class. Seen attack fully
-rejected (0.843 to 0.000) with brand recognition intact (real-rhode test AUC
-0.997). Unseen DPO attack only dampened (0.470 to 0.276). Single seed; a fresh
-SRPO re-attack against v3 is noted as future work.
+recipe plus the SRPO hacks as a third negative class. The "seen attack" score
+(0.843 to 0.000) is **in-sample**: those eval images are the v3 training
+negatives themselves, and 0.000 is a rounded sigmoid mean (<0.0005, not a
+literal zero; per-image v3 scores were not preserved). Brand recognition
+stays intact (real-rhode test AUC 0.997). The out-of-sample evidence is the
+unseen DPO attack (different generator, never trained on): dampened, not
+defeated (0.470 to 0.276). Single seed; a fresh adaptive SRPO re-attack
+against v3 — the decisive robustness test — was not run.
 
 ## Repo layout
 

@@ -1,7 +1,9 @@
 """Render the report-card detection heatmap from eval/results/report_card_v1.json.
 
-One figure, one job: per judge (rows), detection rate @5% FPR for every
-violation family x severity (columns). Sequential single-hue ramp (magnitude),
+One figure, one job: per judge (rows), detection rate at <=5% FPR for every
+violation family x severity (columns). The threshold is the 5th percentile of
+each judge's real-positive scores, so on discrete scorers the realized FPR can
+be below 5% (Qwen zero-shot realizes 0%); see det_fpr_realized in the JSON. Sequential single-hue ramp (magnitude),
 direct cell labels, trained-family cells for SigLIP-tuned-v2 outlined as the
 secondary encoding (that judge trained on palette+typography corruptions).
 
@@ -70,8 +72,9 @@ def main():
     for sp in ax.spines.values():
         sp.set_visible(False)
 
-    ax.set_title("Violation detection @ 5% false-positive rate — by family and severity\n"
-                 "(s1 subtle -> s3 unmistakable · red outline = family in "
+    ax.set_title("Violation detection @ ≤5% false-positive rate — by family and severity\n"
+                 "(threshold: 5th pct of each judge's real-positive scores; realized FPR "
+                 "0–5% by judge · s1 subtle -> s3 unmistakable · red outline = family in "
                  "SigLIP-v2's training negatives)",
                  fontsize=10.5, color=INK, pad=34, loc="left")
     fig.tight_layout()

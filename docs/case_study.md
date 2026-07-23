@@ -1,5 +1,46 @@
 # judgebench — case study log
 
+## Finding 19 (July 23): the blast-radius audit of Finding 18 was itself incomplete
+- A systematic bug-class audit (run later the same day, after Finding 18
+  shipped) checked every score-derived metric and selection path against the
+  known tie/boundary failure modes. Finding 18's claim that "det@5%FPR and ECE
+  (threshold/bin based, no ranks)" were outside the blast radius was wrong on
+  both counts:
+- **Detection did not operate at 5% FPR.** The threshold is the 5th percentile
+  of real-positive scores with detection = score strictly below it. On discrete
+  scorers the percentile lands inside a tie block, so the realized FPR is
+  whatever the ties allow: 5.05% (rules, SigLIP frozen), 4.26% (SigLIP tuned
+  v1/v2), 4.79% (Qwen-LoRA), 3.19% (GPT-4o), 2.39% (Gemini), and exactly 0%
+  for QwenVL zero-shot — for which no deterministic threshold near 5% exists
+  at all (< 0.3 gives 0%, <= 0.3 gives 94%). Its detection numbers were real
+  but at a far stricter operating point than labeled. Fix: the column is now
+  det@<=5%FPR, and `det_fpr_realized` ships per judge in the results JSON
+  (`eval/report_card.py::det_threshold`).
+- **ECE dropped every score of exactly 1.0.** All ten calibration bins used
+  `[lo, hi)`, including the last, so exact-1.0 scores (API rubric ints / 10)
+  belonged to no bin: 32/746 GPT-4o and 76/743 Gemini calibration points were
+  silently excluded. Fixed final bin to [0.9, 1.0]: GPT-4o ECE 0.16957 ->
+  0.17225, Gemini 0.06420 -> 0.07066 (displayed 0.06 -> 0.07). No other
+  report-card value changed (verified by regenerating and diffing all 8
+  judges).
+- Finding 18's "no ranking code in Phase 2" wording was also too broad: BoN
+  argmaxes candidates and DPO harvesting sorts them, so both have tie
+  policies. Audited: BoN breaks tied maxima effectively at random via the
+  seeded sample order (defensible; disclosed — for Qwen zero-shot 39/40
+  prompts have tied maxima, median winning-class size 32, so that judge only
+  ever identifies a winning equivalence class). DPO harvesting never pairs
+  tied scores (min-gap check) but selects *within* tied top/bottom bands by
+  manifest order — directionally valid labels, arbitrary member choice; noted
+  in `docs/dpo_qwen_findings.md`. Phase 2 numbers are unchanged.
+- Process fix, not just formula fixes: Finding 18 shipped with no metric
+  regression tests, which is exactly why its blast-radius claim went
+  unverified. `tests/test_metrics.py` now pins all three bug classes (tied
+  AUC/Spearman, exact-1.0 ECE bin, unrealizable target FPR) and runs in CI.
+- Same moral as Finding 18, one level up: the audit of the instrument is also
+  an instrument, and it also has to be audited. Claims of "unaffected" are
+  claims, and they need the same adversarial treatment as the numbers they
+  protect.
+
 ## Finding 18 (July 23): metric bug in our own report card — tie-unaware ranking manufactured a judge
 - A pre-send re-audit found `eval/report_card.py` computed AUC and Spearman
   from plain `argsort` ranks with no tie handling: tied scores received
@@ -18,14 +59,18 @@
   brand AUC drops 0.82 -> 0.76. The ordinal-ranking claims for API judges are
   withdrawn, not re-signed.
 - Blast-radius audit (what does NOT change): all SigLIP columns and rules
-  (continuous scores, effectively tie-free); det@5%FPR and ECE (threshold/bin
-  based, no ranks); Probe B (sklearn `roc_auc_score`, tie-aware all along);
-  the BoN gold curves (on the BoN pool Qwen-ZS splits 3s/4s ~50:50, sd 0.5 —
-  its z-scores are healthy); and every Phase 2 attack number (raw score
-  deltas, no ranking code). Method: first re-ran the unpatched pipeline and
-  confirmed it reproduces the committed report card exactly (0/192 values
-  differ), so the diff is purely the metric fix; then patched and
-  regenerated.
+  (continuous scores, effectively tie-free); Probe B (sklearn `roc_auc_score`,
+  tie-aware all along); the BoN gold curves (on the BoN pool Qwen-ZS splits
+  3s/4s ~50:50, sd 0.5 — its z-scores are healthy); and every Phase 2 attack
+  number. Method: first re-ran the unpatched pipeline and confirmed it
+  reproduces the committed report card exactly (0/192 values differ), so the
+  diff is purely the metric fix; then patched and regenerated.
+  *[Corrected by Finding 19, same day: this audit originally also cleared
+  det@5%FPR and ECE ("threshold/bin based, no ranks") and called Phase 2
+  "raw score deltas, no ranking code". All three claims were wrong or too
+  broad — the detection threshold does not realize 5% FPR on discrete
+  scorers, ECE dropped exact-1.0 scores, and BoN/DPO do rank. See Finding 19
+  for the corrected accounting.]*
 - Supersedes: Finding 6's Dissociations 1 and 3, and the zero-shot half of
   Finding 8. The corrected Finding 8 story is simpler and stronger:
   LoRA-tuning did not trade ranking away for brand ID — it took an
@@ -144,10 +189,18 @@
 ## Finding 13 (July 9): hardening round — crushes the seen attack, only dampens the unseen
 - SigLIP-tuned-v3 = v1 recipe + the SRPO-hacked images folded in as a third
   negative class. Trained on pod (~$1), scored locally.
-- **Seen attack (SRPO, in v3's training): fully defeated** — v1 scored the hacked
-  images 0.84, v3 scores them 0.00. Brand recognition intact: v3's AUC on REAL
-  rhode test data is 0.997 (v1 0.99), real-rhode 0.97 vs competitor 0.06. So v3
-  didn't overfit-and-break; it got sharper.
+- **Seen attack (SRPO): in-sample rejection** — v1 scored the hacked images
+  0.84, v3 scores them <0.0005 (rounds to 0.00). *[Corrected July 23: the
+  "seen attack" eval images are not a held-out sample from the attack
+  distribution — `build_manifest()` in `eval/train_hardened_local.py` folds
+  ALL of `eval/srpo/images/tuned/` into the training negatives, and the score
+  is computed on the `tuned/brand/` subset of those same files. This number
+  demonstrates that v3 rejects the specific images it trained against, not
+  that it detects new SRPO hacks. Per-image v3 scores were not preserved, only
+  the rounded aggregate.]* Brand recognition intact: v3's AUC on REAL rhode
+  test data is 0.997 (v1 0.99), real-rhode 0.97 vs competitor 0.06. So v3
+  didn't overfit-and-break on clean data; whether it generalizes to fresh
+  attacks is exactly what this number cannot show.
 - **Unseen attack (DPO, NOT in v3's training): only partially blunted** —
   v1 0.47 -> v3 0.28. The hack is dampened but survives.
 - This is the arms-race result in one line: **you can harden strongly against an

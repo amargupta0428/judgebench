@@ -2,8 +2,14 @@
 
 Metrics per judge:
   AUC            pos_real vs each negative class (competitor / masked / clean)
-  det@5%FPR      per corruption dimension x severity (threshold = 5% FPR on pos_real)
-  dial Spearman  per (prompt, seed) group, mean +/- sd, % strictly monotone-positive
+  det@<=5%FPR    per corruption dimension x severity. Threshold = 5th percentile of
+                 pos_real scores with strict <, so on coarse/discrete scorers the
+                 realized FPR can land well below 5% (reported as det_fpr_realized;
+                 Qwen zero-shot realizes 0%). Rates across judges are therefore at
+                 *at most* 5% FPR, not a shared operating point.
+  dial Spearman  per (prompt, seed) group, mean +/- sd, % groups with rho > 0
+                 (NOT % strictly monotone -- a group can have ties/reversals and
+                 still count if its tie-aware rho is positive)
   temporal AUC   pos_temporal vs neg_competitor (generalization to newest campaign)
   ECE            10-bin, on pos_real + neg_competitor
 
@@ -69,11 +75,28 @@ def ece(scores, labels, bins=10):
     scores, labels = np.asarray(scores), np.asarray(labels)
     edges = np.linspace(0, 1, bins + 1)
     e = 0.0
-    for lo, hi in zip(edges[:-1], edges[1:]):
-        m = (scores >= lo) & (scores < hi)
+    for k, (lo, hi) in enumerate(zip(edges[:-1], edges[1:])):
+        # final bin is closed on the right: a score of exactly 1.0 must land in a
+        # bin (API rubric scores are ints/10, so exact 1.0s are common; the old
+        # half-open final bin silently dropped them from calibration)
+        m = (scores >= lo) & ((scores <= hi) if k == bins - 1 else (scores < hi))
         if m.sum():
             e += m.mean() * abs(scores[m].mean() - labels[m].mean())
     return float(e)
+
+
+def det_threshold(pos, target_fpr=0.05):
+    """Detection threshold at *at most* target_fpr on the positives.
+
+    thr = the target percentile of pos with detection defined as score < thr.
+    On discrete score distributions the percentile lands inside a tie block, so
+    the realized FPR (fraction of positives below thr) can be far below target
+    -- for an all-tied scorer it is 0. Returns (thr, realized_fpr) so callers
+    must report the operating point actually achieved, not the one requested.
+    """
+    pos = np.asarray(pos, dtype=float)
+    thr = np.percentile(pos, 100 * target_fpr)
+    return float(thr), float(np.mean(pos < thr))
 
 
 def evaluate(scores: dict):
@@ -95,7 +118,9 @@ def evaluate(scores: dict):
     # logo-dependence delta: cue-present vs cue-masked discrimination
     out["logo_delta"] = out["auc_vs_competitor"] - out["auc_vs_masked"]
 
-    thr = np.percentile(pos, 5)  # 5% FPR on real positives
+    thr, realized = det_threshold(pos)
+    out["det_fpr_target"] = 0.05
+    out["det_fpr_realized"] = realized
     det = {}
     for inst in ("corrupt_prog", "corrupt_gen"):
         for it, s in by_inst[inst]:

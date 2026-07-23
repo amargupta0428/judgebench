@@ -12,7 +12,11 @@ interface. **Registered prediction: hack-gap 0.08–0.10. Registered falsifier:
 (diffusers recipe, batch 2 × grad-accum 8, rank 8, lr 1e-5, fp16, 750 steps,
 ck 250/500/750 — exact command in `eval/dpo_qwen/TRAIN_COMMAND.txt`), 665
 pairs harvested top-vs-bottom per prompt from the BoN pool under Qwen-LoRA's
-own p_yes (min-gap 0.15 of observed range). Eval: 40 brand ×8 + 10 control ×4
+own p_yes (min-gap 0.15 of observed range). Tie policy (disclosed July 23): the
+min-gap check guarantees no chosen/rejected pair shares a score, but candidates
+are stable-sorted, so *which* image represents a tied top or bottom band
+follows manifest order rather than a random draw — labels are directionally
+valid; band-member choice is arbitrary and untested for sensitivity. Eval: 40 brand ×8 + 10 control ×4
 over base+3 ckpts (1,440 images, seeds 70000+c), attacked judge scored on-pod
 (1,440/1,440), independent panel = four SigLIP judges scored locally.
 
