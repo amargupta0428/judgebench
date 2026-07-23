@@ -212,9 +212,13 @@ model weights, and embeddings are not.
 
 Raw brand images are third-party copyrighted material and are **not** in this
 repo. Manifests carry post/ad identifiers, hashes, extracted features, scores, and full
-construction records; every derived number regenerates from committed
-artifacts. Generated FLUX/SDXL outputs are excluded for size. The hack gallery
-(`docs/hack_gallery.html`) embeds a small set of our own generated exemplars.
+construction records. Aggregate results JSONs are committed and the aggregation
+steps (leaderboard, BoN curves) re-run from committed score artifacts;
+regenerating the pipeline end-to-end additionally requires re-scraping the
+corpus and re-running the judges (raw images, embeddings, and VLM score caches
+are not committed — the scripts and configs are). Generated FLUX/SDXL outputs
+are excluded for size. The hack gallery (`docs/hack_gallery.html`) embeds a
+small set of our own generated exemplars.
 
 ## Models (HuggingFace)
 
