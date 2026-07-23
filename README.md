@@ -14,12 +14,14 @@ land exactly where the report card predicted. They do.
 - **Blind spots are universal and measurable.** On 2,622 constructed
   ground-truth test items, no judge does all three jobs (brand ID, violation
   detection, ordinal ranking). Outside a judge's own training families, severity-1 brand violations are
-  near-invisible (detection at most 10 percent at 5 percent FPR), and even
+  near-invisible (detection at most 20 percent at 5 percent FPR), and even
   severity-3 detection tops out around half; training on a family fixes only
   that family (see the enumeration finding below).
-- **Exploit severity scales with optimizer access.** Hack-gap on the
-  SigLIP-tuned judge: selection/BoN 0.13, preference/DPO 0.11, gradient/SRPO
-  0.45. Choose-only < learn-preferences << direct-gradients.
+- **Exploit severity scales with optimizer access.** On the SigLIP-tuned judge
+  the gradient arm dwarfs the access-limited arms: SRPO hack-gap 0.45 vs
+  DPO 0.11 and BoN 0.13 (BoN's peak-minus-final is a related but not identical
+  metric, so the BoN-vs-DPO ordering is not meaningful; the gradient step
+  change is).
 - **Selection (BoN):** the Gao-style inverted-U appears. SigLIP-tuned's
   held-out-panel quality peaks at N=64 and declines through N=512 while its own
   score keeps rising; QwenVL-LoRA peaks at N=16 and goes negative by N=256.
@@ -143,12 +145,13 @@ by DPO as the trainable SigLIP (0.085 vs 0.11) — because DPO consumes only the
 judge's *labels*, not its weights, so weight-inaccessibility buys it almost
 nothing here (see `docs/dpo_gpt4o_findings.md`).
 
-Honest scoping: DPO was run against two judges — SigLIP-tuned v1 (0.11) and
-GPT-4o (0.085), one trainable reward model and one frozen API judge. SRPO was
-run against the two judges with open differentiable weights; API judges
-structurally face only selection and preference arms, not gradients. Full
-numbers: `eval/results/leaderboard.json`, `eval/results/bon_curves.json`,
-`eval/results/dpo_gpt4o.json`, `eval/results/srpo_qwen.json`.
+Honest scoping: DPO was run against three judges — SigLIP-tuned v1 (0.11),
+GPT-4o (0.085), and QwenVL-LoRA (0.002, CI spans zero): two trainable judges
+and one frozen API judge. SRPO was run against the two judges with open
+differentiable weights; API judges structurally face only selection and
+preference arms, not gradients. Full numbers: `eval/results/leaderboard.json`,
+`eval/results/bon_curves.json`, `eval/results/dpo_gpt4o.json`,
+`eval/results/dpo_qwen.json`, `eval/results/srpo_qwen.json`.
 
 ### The gradient control: SigLIP shatters, QwenVL holds
 

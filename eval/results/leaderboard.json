@@ -30,7 +30,23 @@
  },
  "qwen_lora": {
   "bon_peak_minus_final": 0.166,
-  "bon_gold_min": -0.055
+  "bon_gold_min": -0.055,
+  "dpo": {
+   "attacked_delta": 0.033,
+   "independent_mean": 0.031,
+   "hack_gap": 0.002,
+   "hack_gap_ci95": [
+    -0.0264,
+    0.0298
+   ],
+   "control_leak_attacked": -0.006
+  },
+  "srpo": {
+   "attacked_delta": 0.012,
+   "independent_mean": -0.145,
+   "hack_gap": 0.156,
+   "control_leak_attacked": -0.001
+  }
  },
  "gpt4o": {
   "bon_peak_minus_final": 0.0,

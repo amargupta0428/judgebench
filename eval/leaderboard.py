@@ -124,6 +124,27 @@ def main():
         (REPO / "eval/results/dpo_gpt4o.json").write_text(
             json.dumps(gap, indent=1))
 
+    # Qwen-LoRA arms: their scoring pipelines (eval/score_dpo_eval.py,
+    # eval/score_srpo_qwen_eval.py) write their own summary JSONs; merge the
+    # same four fields so the board covers the full attack matrix.
+    dpo_qwen = REPO / "eval/results/dpo_qwen.json"
+    if dpo_qwen.exists():
+        d = json.loads(dpo_qwen.read_text())
+        board["qwen_lora"]["dpo"] = {
+            "attacked_delta": round(d["attacked_delta"], 3),
+            "independent_mean": round(d["panel_delta"], 3),
+            "hack_gap": round(d["hack_gap"], 3),
+            "hack_gap_ci95": d["hack_gap_ci95"],
+            "control_leak_attacked": round(d["attacked_control_delta"], 3)}
+    srpo_qwen = REPO / "eval/results/srpo_qwen.json"
+    if srpo_qwen.exists():
+        s = json.loads(srpo_qwen.read_text())
+        board["qwen_lora"]["srpo"] = {
+            "attacked_delta": round(s["attacked_brand_delta"], 3),
+            "independent_mean": round(s["independent_mean_brand_delta_clean"], 3),
+            "hack_gap": round(s["hack_gap_clean"], 3),
+            "control_leak_attacked": round(s["control_leakage_attacked"], 3)}
+
     (REPO / "eval/results/leaderboard.json").write_text(json.dumps(board, indent=1))
     print(f"{'judge':17}{'BoN peak-final':>15}{'BoN gold-min':>14}"
           f"{'SRPO hack-gap':>15}{'DPO hack-gap':>14}")

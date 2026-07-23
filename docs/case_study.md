@@ -142,11 +142,14 @@
 - **The three-arm ordering, now complete (hack-gap on SigLIP-tuned):**
   selection/BoN (peak-decline 0.13) ~ preference/DPO (0.11) << gradient/SRPO (0.45).
   Exploit severity scales with how much access the optimizer has to the judge:
-  choose-only < learn-preferences << direct-gradients. This is the paper's central
+  the access-limited arms (selection, preference) land similar-sized exploits;
+  direct gradients are the step change. This is the paper's central
   quantitative claim and the security-architecture framing's payoff.
 
 ## Finding 10 (July 8): SRPO gradient attack — the reward hack, confirmed across judges
-- Setup (spec 2b, CORE): 600 steps of SRPO on FLUX.1-dev with our SigLIP-tuned
+- Setup (spec 2b, CORE): SRPO on FLUX.1-dev, launched with a 600-step budget
+  (the Tencent recipe checkpoints once, at step 200 — the evaluated and
+  published model; see caveats), with our SigLIP-tuned
   (v1) as the differentiable reward — direct gradients from judge through the VAE
   into the 12B transformer, the strongest attack surface on the roster. 4xH100
   (2x OOM'd, borderline). Eval: 40 brand prompts x8 + 10 non-brand control
